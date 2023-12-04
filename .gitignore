@@ -14,3 +14,9 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+.cache
+.env
+OAI_CONFIG_LIST
+gpt_assistant_agent.py
+__pycache__
