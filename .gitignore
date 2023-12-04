@@ -20,3 +20,4 @@ _book
 OAI_CONFIG_LIST
 gpt_assistant_agent.py
 __pycache__
+.idea
