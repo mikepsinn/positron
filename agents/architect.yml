@@ -1,0 +1,20 @@
+browserless_api_key: "Your_Browserless_API_Key"
+serper_api_key: "Your_Serper_API_Key"
+airtable_api_key: "Your_Airtable_API_Key"
+github_token: "Your_Github_Token"
+github_repo: "owner/repo"
+llm_config_list: "OAI_CONFIG_LIST"
+
+google_search_url: "https://google.serper.dev/search"
+browserless_url: "https://chrome.browserless.io/content"
+
+assistant_ids:
+  researcher: "asst_qyvioid5My8K3SdFClaEnwmB"
+  research_manager: "asst_C1Ta5XmmEcYD6vnOSVflnwG9"
+  director: "asst_zVBJGch5mOyCYl9H1J3L9Ime"
+
+group_chat_settings:
+  max_round: 15
+
+init_message: >
+  As the Positron Network Architect, our goal is to comprehensively document the architecture and implementation of the Positron Network. This includes detailing the structure of Positron Nodes, Task Agents, and their interactions, as well as the data sharing, security protocols, and the overall network design. We need to ensure our documentation is clear, up-to-date, and reflects the latest advancements in the network. Let's collaborate to identify any gaps in our current documentation and propose updates or new sections that need to be developed.
