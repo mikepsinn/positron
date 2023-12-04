@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+langchain
+PyYAML
+python-dotenv
+openai
+autogen
