@@ -37,19 +37,15 @@ Each agent should have a very specific:
 6. **Tools** - APIs and other tools that the agent can use to interact with the world to perform its primary action.
 
 
-### Agent Objective Categories
+#### Agent Objective Categories
+1. [Advocacy Agents](docs/task-agent-categories.md)
+2. [Market Engagement Agents](docs/task-agent-categories.md)
+3. [Movement Building Agents](docs/task-agent-categories.md)
+4. [Collective Intelligence and Power Distribution Agents](docs/task-agent-categories.md)
+5. [Nonprofit Networking Agents](docs/task-agent-categories.md)
+6. [Agent Evaluators](docs/task-agent-categories.md)
 
-1. **Advocacy and Research Agents**: This category of agents government policies and market trends relevant to the nonprofit's mission. They can provide summaries and insights to guide the nonprofit's advocacy efforts.
-
-2. **Market Engagement Agents**: Agents can identify potential business partnerships, sustainable business practices, and opportunities for earned income. They can facilitate interactions with businesses to promote mutually beneficial collaborations.
-
-3. **Community Engagement Agents**: Autonomous agents can help in nurturing nonprofit networks by identifying potential partners, events, and collaborative opportunities within the local community.
-
-4. **Movement Building Agents**: Agents can be designed to engage and mobilize volunteers and supporters, disseminate information, and facilitate community involvement to build movements of evangelists for the nonprofit's cause.
-
-5. **Adaptation and Leadership Agents**: The framework should support adaptive decision-making and leadership sharing within the nonprofit, enabling quick responses to changing conditions and effective internal collaboration.
-
-### Agent Performance Monitoring
+#### Agent Performance Monitoring
 
 Each Positron Node should include a Task Agent Evaluator agent that monitors the effectiveness of the other agents at advancing the mission based on their lead and lag metrics.  It should also monitor the internet for new approaches that could advance the mission. It should propose create new experimental agents with a WIG, lead, and lag measure to experiment these new approaches.  It should send the executive team and board regular reports with its evaluation and recommendations.
 
