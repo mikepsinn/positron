@@ -260,3 +260,6 @@ GNU General Public License v3.0
 
 Please create an issue or a discussion thread if you have any questions or suggestions.
 
+## References
+1. [A Survey on Large Language Model based
+Autonomous Agents](https://www.semanticscholar.org/reader/28c6ac721f54544162865f41c5692e70d61bccab)

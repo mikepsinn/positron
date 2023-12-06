@@ -1,0 +1,65 @@
+<mxfile host="Electron" modified="2023-12-06T18:52:14.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="BaqX5jsuX-F907byrkJG" version="22.1.2" type="device">
+  <diagram id="fwKmZzDpUcPgBW0NIkbe" name="Page-1">
+    <mxGraphModel dx="964" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I9ISP0G6ngIsurMLvayH-22" value="Positron Netwok Repo" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="270" y="430" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Architect Agent&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#BF0816;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.waf_bot;" parent="1" vertex="1">
+          <mxGeometry x="40" y="10" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.309;exitY=-0.023;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="I9ISP0G6ngIsurMLvayH-22" target="2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="341" y="230" />
+              <mxPoint x="340" y="230" />
+              <mxPoint x="340" y="70" />
+              <mxPoint x="260" y="70" />
+              <mxPoint x="260" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="Fine-Tune LLM or &lt;br&gt;RAG using&lt;br&gt;Existing Docs/Code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6" vertex="1" connectable="0">
+          <mxGeometry x="0.0091" y="4" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3" value="&lt;font color=&quot;#000000&quot;&gt;Positron Network Repo&lt;/font&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.github_code;pointerEvents=1;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="350" y="525" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Project Manager&lt;br&gt;&lt;/span&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#BF0816;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.waf_bot;" parent="1" vertex="1">
+          <mxGeometry x="520" y="120" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="I9ISP0G6ngIsurMLvayH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8" target="I9ISP0G6ngIsurMLvayH-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I9ISP0G6ngIsurMLvayH-9" value="Identifies Discrepancies&lt;br&gt;Between Docs and Code&lt;br&gt;and Creates Issues" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I9ISP0G6ngIsurMLvayH-8">
+          <mxGeometry x="-0.1786" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9ISP0G6ngIsurMLvayH-11" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.checklist;" vertex="1" parent="1">
+          <mxGeometry x="440" y="460" width="66" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="I9ISP0G6ngIsurMLvayH-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="I9ISP0G6ngIsurMLvayH-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="90" y="80" as="sourcePoint" />
+            <mxPoint x="326" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I9ISP0G6ngIsurMLvayH-14" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;" vertex="1" parent="1">
+          <mxGeometry x="250" y="460" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="I9ISP0G6ngIsurMLvayH-16" value="Pull Request&lt;br&gt;Improving Docs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="243" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I9ISP0G6ngIsurMLvayH-19" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Repo Manager Agent&lt;br&gt;&lt;/span&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#BF0816;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.waf_bot;" vertex="1" parent="1">
+          <mxGeometry x="40" y="428" width="70" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
