@@ -2,11 +2,24 @@
 
 _An Autonomous Agent Framework to Maximize Public Goods_
 
-![chat-dev-nonprofit-autonomous-agents.png](images/chat-dev-nonprofit-autonomous-agents.png)
-
 ## Overview
 
 Non-profits are constrained by limited cognitive bandwidth and resources to achieve their mission. The highest leverage thing we can do at this point is to make it as easy as possible for these organizations to operationalize autonomous agents.  Positron is an autonomous agent framework designed to discover and play positive sum games for a net positive sum future.
+
+
+### Why is this necessary?
+
+**Primary Objective Functions: Tilting the Balance of Power to a Positive Future**
+
+More than changing human trajectories, super-intelligence is likely to amplify existing trends by optimizing for the primary objective functions of existing entities.
+Although people have myriad motivations, there is generally a primary objective function that is most characteristic of each group.
+
+1. **Criminals** - Drain maximum resources from the cooperative productive economy.  AI is perfectly suited for cybercrime and will allow cybercriminals to effectively clone themselves a million times over.
+2. **Politicians** - Maximize power.  Obviously, there are wonderful people with wonderful intentions in government.  However, decency can be a major disadvantage in politics.  The dark triad traits, which include Machiavellianism, psychopathy, and narcissism, have been found to be [far more predictive](https://www.frontiersin.org/articles/10.3389/fpos.2021.657750/full) of political power attainment.
+3. **Corporations** - Maximize profits. This can be good in the sense that it incentivizes the creation of products and services that people want.  However, the most profitable thing a company can do is get government subsidies. ROI of corporate lobbying can be as high as [22,000%](https://www.freshonomics.org/blog/2021/3/14/the-logic-of-lobbying-how-do-you-turn-58-billion-into-44-trillion) compared to free market profit margins around [10%](https://www.capterra.com/resources/what-is-good-profit-margin-for-small-business/).
+4. **Nonprofits** - **Maximize global health and happiness** (in a very general sense on average).
+
+So only one of these entities has a primary objective function that is aligned with the interests of humanity as a whole.  Unfortunately, the non-profit sector isn't generally known for its efficiency.
 
 # Positron Network
 
@@ -14,15 +27,15 @@ The Positron network consists of "Positron Nodes" run by non-profit organization
 
 ## Positron Nodes
 
-"Positron Nodes" are applications that contain autonomous "Task Agents". Each "Task Agent" is focused on a very specific task to advance the non-profit's core mission.  The autonomous Task Agents use retrieval augmented generation as long-term memory, context management as short-term memory, large language models for reasoning and decision-making, and tools to take action using external APIs.
+"Positron Nodes" are applications that contain autonomous **Task Agents**. Each **Task Agent** is focused on a very specific task to advance the non-profit's core mission.  The autonomous Task Agents use retrieval augmented generation as long-term memory, context management as short-term memory, large language models for reasoning and decision-making, and tools to take action using external APIs.
 
-The "Autonomous Non-Profit Designer Agent" applies the rules that applies the six primary rules of the most effective non-profit organizations from the book Forces for Good to generate its "Task Agent" definitions.
+The "Autonomous Non-Profit Designer Agent" applies the rules that applies the six primary rules of the most effective non-profit organizations from the book Forces for Good to generate its **Task Agent** definitions.
 
 ## Task Agents
 
-Each autonomous "Task Agent" should be highly focused on a single wildly important goal. 
+Each autonomous **Task Agent** should be highly focused on a single wildly important goal. 
 
- "Task Agent" definitions should also include the specific easily measurable lead and lag measures described in the book "The 4 Disciplines of Execution". 
+ **Task Agent** definitions should also include the specific easily measurable lead and lag measures described in the book "The 4 Disciplines of Execution". 
 
 Anyone should be able to create a new Task Agent that takes a different approach to achieving the same goal. Task Agents should be run separately experimentally to see which agents and models are more efficient at maximizing the key performance indicator or lag measure. This will allow the Positron Network to evolve and improve over time as it identifies the most effective agents and models.
 
@@ -54,9 +67,9 @@ Each nonprofit that wants to create a "positron node":
 1.  signs up on the website
 2.  enters its mission
 3.  enters its credentials for external tools to be used by agents
-4. selects from suggested "Task Agent" definitions provided by an LLM "Autonomous Non-Profit Designer" agent based on the mission 
-5. Selects from "Task Agent" definitions created by other non-profits with similar missions based on their "efficiency" score.  Their "efficiency score" is based on the degree to which they typically advance the mission of the non-profit organization per unit of compute cost.
-6. Design their own custom "Task Agent" definitions
+4. selects from suggested **Task Agent** definitions provided by an LLM "Autonomous Non-Profit Designer" agent based on the mission 
+5. Selects from **Task Agent** definitions created by other non-profits with similar missions based on their "efficiency" score.  Their "efficiency score" is based on the degree to which they typically advance the mission of the non-profit organization per unit of compute cost.
+6. Design their own custom **Task Agent** definitions
 7. Task Agents that run within its "Positron Node"
 8. The definitions of the agents will be shared in a directory and will be recommended to other non-profits with the same mission. The effectiveness of the agents will also be included in the listing for each agent in the directory so that other nonprofits with similar missions can utilize the c and utilize the most effective agents.
 
@@ -156,8 +169,15 @@ Current state-of-the-art AI models do not have the reasoning capabilities and co
 
 It would be very valuable for pro-social entities to have a framework that enables them to easily operationalize autonomous agents as soon as the technology is ready.
 
-Current limitations are addressed through mechanisms for human-AI cooperation, as described in [here](docs/human-ai-cooperation.md).
+In the meantime, the best approach to addressing the current limitations:
+1. Reasoning
+2. Context Length
+3. Ability to perform multistep long-term tasks
 
+can be addressed through:
+
+1. [Human-AI Cooperation](docs/human-ai-cooperation.md) through GitHub Issue creation and comments and pull request reviews and comments and code and documentation updates
+2. Goal Decomposition - Creation of a large number of highly focused agents that each perform a single task. This will allow the agents to be more focused and have a shorter context length requirement.  It will also allow the agents to be more focused on a single task and therefore more efficient at performing that task.
 
 
 ### Framework Design
@@ -205,10 +225,6 @@ The Positron Network Architect is a dynamic research agent designed to facilitat
 
 ### Create OpenAI Assistants
 
-1. Create an OpenAI account and create an API key.
-2. Go to https://platform.openai.com/assistants and create 2 new assistants.
-   - Researcher - 
-
 1. Clone the repository:
    ```
    git clone https://github.com/wishocracy/positron.git
@@ -244,5 +260,3 @@ GNU General Public License v3.0
 
 Please create an issue or a discussion thread if you have any questions or suggestions.
 
-
-https://www.semanticscholar.org/reader/28c6ac721f54544162865f41c5692e70d61bccab
