@@ -35,3 +35,21 @@ The mechanism for human-AI cooperation in the Positron Network, uses GitHub issu
    - This ensures a clear audit trail and allows for broader community engagement and oversight.
 
 This human-AI cooperation mechanism facilitates a synergistic relationship where AI enhances human capabilities with data-driven insights and automation, while human participants provide contextual intelligence, creativity, and ethical guidance. GitHub, as a platform, offers an ideal environment for this collaboration, with its APIs and tools for issue tracking, code review, and version control.
+
+## Meetings
+
+SCRUM and Sprint Planning meetings should be transcribed using a service like Fireflies.ai and sent to the Project Manager Agent to turn action items into GitHub Issues and the Documentation Agent to update documentation files in the repository.
+
+### SCRUM Meetings
+
+These should be daily 15-minutes strictly time-limited meetings focused on answering the questions:
+1. What did you do yesterday?
+2. What are you doing today?
+3. What do you need to succeed today?
+
+### Weekly Sprint Planning Meetings
+
+Weekly sprint planning meetings are 1-hour meetings held at the start of each week. The team:
+1. discusses the work to be done in the upcoming sprint
+2. breaks larger tasks into smaller, manageable tasks
+3. assigns them to team members
