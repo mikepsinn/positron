@@ -53,3 +53,24 @@ Weekly sprint planning meetings are 1-hour meetings held at the start of each we
 1. discusses the work to be done in the upcoming sprint
 2. breaks larger tasks into smaller, manageable tasks
 3. assigns them to team members
+
+## Human Project Manager
+
+A human AI engineer will be responsible for:
+1. Coordinating between the various non-profits to ensure the project is aligned with their needs
+2. Creating a detailed roadmap for the project
+3. Running SCRUM and Sprint Planning meetings
+4. Ensuring that meeting transcripts are converted to GitHub Issues and Documentation
+5. Creating GitHub Issues for the tasks that need to be completed
+6. Creating bounties for the tasks that need to be completed
+7. Answering questions from contributors from 9 to 5 PST Monday through Friday
+8. Respond to GitHub Issues and Pull Requests within 24 hours on weekdays
+9. Facilitate collaborative resource allocation decisions through the use of quadratic funding, participatory budgeting, and retroactive public goods funding
+
+## Automated Task Outsourcing
+
+For tasks that can't be completed by the Positron Network agents, the Outsourcing Agent will be used to outsource tasks to other humans or organizations. The Outsourcing Agent will be responsible for:
+1. Creating GitHub Issues for the tasks that need to be completed
+2. Creating bounties for the tasks that need to be completed
+3. Answering questions from contributors
+
