@@ -175,3 +175,7 @@ you'll lay a solid foundation for the repository to evolve and improve autonomou
 
 ## More Details
 1. [Architect Agent](positron-network-architect-agent/positron-network-architect-agent.md)
+
+## Related Projects
+
+See [references.md](references.md#autonomous-code-generation)
