@@ -4,6 +4,8 @@
 
 ## Overview
 
+This section provides an overview of Collabathons, a collaborative hackathon where all participants work together on the same open-source project. The goal of Positron Collabathons is to create autonomous agents that produce public goods, support non-profit organizations, and counterbalance the wave of extractive and malevolent AI agents.
+
 Collabathons are like hackathons, but all participants work together on the same open-source project. Judges vote on what contributions get accepted and the rewards for them. These produce more long-term value than just creating little projects typically abandoned after the hackathon.
 
 Positron Collabathons are designed
@@ -13,12 +15,17 @@ to maximize wish fulfillment and minimize suffering by:
 - counterbalancing the inevitable wave of extractive and malevolent AI agents that will soon be draining the productive, cooperative economy
 
 ## Collabathon Details
+
+This section provides details about the logistics of the Collabathon, including location, participation incentives, challenge creation, and submission platform.
+
 - **Location**: Hybrid online/IRL
 - **Participation Incentive**: Maybe $1000 in prizes per week
 - **Challenge Creation**: Non-Profits create "Wishes" for agents with highly specific SMART (Specific, Measurable, Achievable, Relevant, Time-bound) objectives that would advance their missions.
 - **Submission Platform**: Participants make submissions of their implementation via GitHub pull requests which are reviewed and voted on by judges.
 
 ## Submission Guidelines
+
+This section provides guidelines for submissions, including the types of contributions that are encouraged and the requirements for prize eligibility.
 
 **Avoiding Wheel Reinvention**
 
