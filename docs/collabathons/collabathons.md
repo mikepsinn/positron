@@ -30,7 +30,7 @@ The Positron repository is meant to be a collection of specific operationalized 
 
 ### Types of Contributions
 
-1. **Autonomous Public Good (APG) Agents**: Directly creates a real public good that improves the world in a measurable way. [Examples below](#examples-of-autonomous-agent-projects)
+1. **Autonomous Public Good (APG) Agents**: Directly creates a real public good that improves the world in a measurable way. [Examples below](#example-public-good-agents)
 2. **Autonomous Non-Profit (ANP) Agents**: Supports a non-profit organization in its mission in accordance with the [Six Practices of High-Impact Nonprofits](../../autonomous-nonprofit-designer-gpt/instructions.md).
 3. **Positron Framework Contributions**: Bring the Positron framework closer to the long-term vision of a self-improving repository capable of sustaining itself and autonomously granting prosocial wishes submitted as GitHub issues.
 4. **External Framework Contributions**: Improvements to third-party open-source libraries or other autonomous agent frameworks that are used by Positron agents or the Positron Framework should be encouraged and rewarded.  One should provide a link to their external repo-commits and an illustration of the benefits with an agent implementation.
@@ -79,6 +79,6 @@ Review and voting on pull requests in Positron repository.
 9. **Animal Welfare Agent**: Identification of suffering in factory farms and advocacy efforts.
 
 ## Required Resources
-1. **Event Costs**: promotion, prizes, food (vegetarian), venue, etc.
+1. **Event Costs**: promotion, prizes, food (vegetarian, please! 🐮), venue, etc.
 2. **Coordinator**: an AI Engineer to manage collabathons and provide technical support
 3. **Agent Compute Costs**: funding to run the most impactful winning agents
