@@ -72,4 +72,8 @@ Here are some ideas for the general implementation of an AI Coordination Agent t
    - Use GitHub’s reporting features to track progress and outcomes
    - Encourage users to provide feedback directly within the GitHub platform
 
+## Links
+
+- [Catabot](https://www.catalist.network/catabot) is a cataloging bot that sits in your group's chat channels and aggregates and catalogs links for you to find them later.
+
 
