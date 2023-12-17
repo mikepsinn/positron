@@ -50,9 +50,9 @@ These should be daily 15-minutes strictly time-limited meetings focused on answe
 ### Weekly Sprint Planning Meetings
 
 Weekly sprint planning meetings are 1-hour meetings held at the start of each week. The team:
-1. discusses the work to be done in the upcoming sprint
+1. discuss the work to be done in the upcoming sprint
 2. breaks larger tasks into smaller, manageable tasks
-3. assigns them to team members
+3. assign them to team members
 
 ## Human Project Manager
 
