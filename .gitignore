@@ -22,3 +22,5 @@ gpt_assistant_agent.py
 __pycache__
 .idea
 .scratch
+/.obsidian
+*.bkp
