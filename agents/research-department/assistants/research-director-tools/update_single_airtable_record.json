@@ -1,0 +1,32 @@
+{
+  "name": "update_single_airtable_record",
+  "description": "update a single record in airtable",
+  "parameters": {
+    "properties": {
+      "type": "object",
+      "base_id": {
+        "type": "string",
+        "description": "base_id of the airtable url, normally the first id from the url, e.g. in this url below, the base_id is 'appj0J4gFpvLrQWjI', https://airtable.com/appj0J4gFpvLrQWjI/tblF40mG6oLjYtgZl/viwmFx2ttAVrJm0E3?blocks=hide"
+      },
+      "table_id": {
+        "type": "string",
+        "description": "table_id of the airtable url, normally the second id from the url, e.g. in this url below, the table_id is 'tblF40mG6oLjYtgZl', https://airtable.com/appj0J4gFpvLrQWjI/tblF40mG6oLjYtgZl/viwmFx2ttAVrJm0E3?blocks=hide"
+      },
+      "id": {
+        "type": "string",
+        "description": "the id of the record"
+      },
+      "fields": {
+        "type": "object",
+        "description": "the data to be updated, make sure include company name as well. e.g. if data to be updated is address data, then should be {'Company name': 'apple', 'address': '1205/ahd street'}"
+      }
+    }
+  },
+  "required": [
+    "base_id",
+    "table_id",
+    "fields",
+    "id"
+  ]
+}
+
