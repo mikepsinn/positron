@@ -19,3 +19,7 @@ There are other open-source autonomous agent frameworks worth mentioning. For in
 ### Adala
 
 [Adala](https://www.mlq.ai/open-source-ai-agents/) is an open-source framework for autonomous data labeling agents. Adala's agents are designed to learn and improve at data tasks like classification and labeling when provided with ground truth datasets.
+
+### MetaGPT
+
+[MetaGPT](https://github.com/geekan/MetaGPT) - MetaGPT takes a one line requirement as input and outputs user stories / competitive analysis / requirements / data structures / APIs / documents, etc.
