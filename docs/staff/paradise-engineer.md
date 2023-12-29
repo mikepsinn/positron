@@ -1,4 +1,7 @@
 # Paradise Engineer Wanted
+<!--
+This section of the document aims to introduce the goal of creating a virtual world with pro-social AI agents and outlines the basic steps required to achieve this objective.
+-->
 
 ## Goal
 
@@ -14,6 +17,9 @@ we're creating a virtual world filled with pro-social AI agents (genies) that ma
 3. **Act** - Task agents then carry out strategies and measure the results.  Given current their limitations, agents should automate what they can and outsource what they can't to humans.
 
 ## We Want You
+<!--
+This section invites readers to join the project as a Paradise Engineer and details the key responsibilities and areas of expertise required for the role.
+-->
 
 Join us in creating semi-autonomous AI agents to help us maximize universal wish fulfillment and minimize suffering. We're seeking a visionary Paradise Engineer to lead this endeavor.
 
@@ -29,6 +35,9 @@ Join us in creating semi-autonomous AI agents to help us maximize universal wish
 ### Skills and Experience
 
 - **Technical Expertise:** Proven experience in creating APIs, OpenAPI specifications, and working with frameworks like Next.js and React.
+<!--
+Describes the skills and experience required for the Paradise Engineer position and provides reasons to join the project, aligning with the vision outlined in 'Gaming the Future'.
+-->
 - **AI and Machine Learning:** Experience in fine-tuning and deploying open-source AI models, including large language models. Familiarity with [autonomous agent frameworks](../../knowledge/autonomous-agent-frameworks.md) such as AutoGen, TaskWeaver, ChatDev, and MetaGPT.
 - **Open Source Contributions:** A history of significant open-source contributions, showcasing your skills and collaborative nature.
 - **Communication and Leadership:** Strong communication skills for effective documentation, meetings, and collaborative projects. Leadership experience in guiding teams and managing complex projects.
