@@ -1,21 +1,38 @@
-# Paradise Engineer Wanted
+![Paradise Engineers Wanted](../../images/paradise-engineers-wanted.jpeg)
 
-## Goal
+## Your Mission
 
-In order to realize the positive vision and avoid the risks outlined in the [Gaming the Future](https://foresightinstitute.substack.com/p/start-here)
-we're creating a virtual world filled with pro-social AI agents (genies) that maximize universal wish fulfillment while respecting the rights of meat.
+Create a forkable virtual world filled with pro-social AI agents that maximize universal wish fulfillment while respecting the basic rights of meat.
 
 ## Just 3 Easy Steps!
 
-1. **Learn** - Create AI representations of real-world organizations and people. Each digital twin should have its own vector database of defining data.  The most fundamental components of each entity would be its wishes and resources (data, humans, capital, etc.). These serve primarily as a source of information for other agents.
+Although this sounds like a daunting task, it can be broken down into three simple steps:
 
-2. **Decide** - Decider agents that create hypotheses about the most efficient ways to fulfill various wishes while respecting universal human rights. They then use semi-quantitative cost benefit analysis to decide which strategies to test first.
+### 1. Learn
 
-3. **Act** - Task agents then carry out strategies and measure the results.  Given current their limitations, agents should automate what they can and outsource what they can't to humans.
+Fortunately, the Learn phase is fairly straightforward and technically feasible today.  We just need to create **Digital Twins** of real-world entities and populate them with data.
 
-## We Want You
+These entities primarily fall into two categories:
+- **organizations** - nonprofits, governments, companies, etc.
+- **people** - scientists, employees, doctors, patients, etc.
 
-Join us in creating semi-autonomous AI agents to help us maximize universal wish fulfillment and minimize suffering. We're seeking a visionary Paradise Engineer to lead this endeavor.
+Each of these digital twins should have its own vector database of defining data.  The most fundamental components of each entity would be its:
+- **wishes** - goals, desires, objectives, etc.
+- **resources** - data, humans, capital, etc. that can be allocated, pooled, or exchanged with other entities to fulfill wishes.
+
+These digital twins serve primarily as an easy source of information for other agents (deciders and actors).
+
+## 2. Plan
+
+**Planning Agents** that create hypotheses about the most efficient ways to fulfill various wishes while respecting universal human rights. These **Decider Agents** then use semi-quantitative cost benefit analysis to decide which strategies seem most promising.
+
+Humans can then review these strategies and decide which ones to test.  Once a strategy is selected, the **Planning Agents** can then create **Actor Agents** to carry out the strategies.
+
+## 3. Act
+
+**Actor Agents** then carry out plans and measure the results.  Given current their limitations, **Actor Agents** should:
+1. automate what they can, using tools 
+2. outsource what they can't to humans by creating bounties
 
 ### Key Responsibilities
 
@@ -38,7 +55,10 @@ Join us in creating semi-autonomous AI agents to help us maximize universal wish
 
 **Why Join Us:**
 
-Your work will directly contribute to creating a world of abundance, peace, and well-being. You'll be at the forefront of AI development, working on groundbreaking technologies and concepts that could redefine our society. If you like that kind of thing?
+Your work will directly contribute to creating a world of abundance, peace, and universal well-being. You'll be at the forefront of AI development, working on groundbreaking technologies and concepts that could redefine our society. (If you like that kind of thing?)
 
-[**Click to Apply Now!**](mailto:hello@crowdsourcingcures.org)
+## How to Apply
 
+Make a radical improvement to [this repository](https://github.com/wishocracy/positron) and submit a pull request. 
+
+Then email [hello@crowdsourcingcures.org](mailto:hello@crowdsourcingcures.org) with a link to your pull request and tell us why you have what it takes to become a paradise engineer!
