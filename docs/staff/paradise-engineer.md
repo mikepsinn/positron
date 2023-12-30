@@ -1,4 +1,4 @@
-![Paradise Engineers Wanted](../../images/paradise-engineers-wanted.jpeg)
+![Paradise Engineers Wanted](../../images/paradise-engineers-wanted-wide.png)
 
 ## Your Mission
 
@@ -59,6 +59,12 @@ Your work will directly contribute to creating a world of abundance, peace, and 
 
 ## How to Apply
 
-Make a radical improvement to [this repository](https://github.com/wishocracy/positron) and submit a pull request. 
+Create a pro-social agent that improves the world using [an agent framework](../agent-frameworks.md) and [submit a pull request](https://github.com/wishocracy/positron). 
+
+Since reasoning capabilities are still limited, you might want to focus on the first "Learn" phase and create a **Digital Twin** of an organization or person.  
+
+More details and submission guidelines are available in the [Collabathon Instructions](../collabathons/collabathons.md).
+
+Here are some other [ideas for possible agents as well](../agent-ideas).
 
 Then email [hello@crowdsourcingcures.org](mailto:hello@crowdsourcingcures.org) with a link to your pull request and tell us why you have what it takes to become a paradise engineer!
