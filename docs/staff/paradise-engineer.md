@@ -28,37 +28,20 @@ These digital twins serve primarily as an easy source of information for other a
 
 Humans can then review these strategies and decide which ones to test.  Once a strategy is selected, the **Planning Agents** can then create **Actor Agents** to carry out the strategies.
 
-## 3. Act
 
-**Actor Agents** then carry out plans and measure the results.  Given current their limitations, **Actor Agents** should:
-1. automate what they can, using tools 
-2. outsource what they can't to humans by creating bounties
 
-### Key Responsibilities
 
-- **AI Agent Development:** Create and refine proof-of-concept AI agents using existing [autonomous agent frameworks](../../knowledge/autonomous-agent-frameworks.md) (e.g., AutoGen, TaskWeaver, ChatDev, MetaGPT). Ensure these agents can simulate real-world scenarios and decisions for optimal societal outcomes.
-- **API & Framework Expertise:** Develop robust APIs and work with OpenAPI specifications. Utilize frameworks such as Next.js and React for scalable, efficient applications.
-- **Documentation & Support:** Produce comprehensive documentation to assist users and contributors in understanding and utilizing AI agents.
-- **Community Engagement:** Organize and lead supportive events and meetings for contributors, fostering a collaborative environment.
-- **Project Management:** Regularly update on project progress, strategize future developments, and navigate potential obstacles. Coordinate with various organizations and contributors for seamless integration and progress.
-- **Hackathon Coordination:** Plan and execute hackathons focusing on specific [autonomous agent frameworks](../../knowledge/autonomous-agent-frameworks.md), guiding participants in creating diverse AI agents for public good projects.
-
-### Skills and Experience
-
-- **Technical Expertise:** Proven experience in creating APIs, OpenAPI specifications, and working with frameworks like Next.js and React.
-- **AI and Machine Learning:** Experience in fine-tuning and deploying open-source AI models, including large language models. Familiarity with [autonomous agent frameworks](../../knowledge/autonomous-agent-frameworks.md) such as AutoGen, TaskWeaver, ChatDev, and MetaGPT.
-- **Open Source Contributions:** A history of significant open-source contributions, showcasing your skills and collaborative nature.
-- **Communication and Leadership:** Strong communication skills for effective documentation, meetings, and collaborative projects. Leadership experience in guiding teams and managing complex projects.
-- **Ethical AI and Data Privacy:** Knowledge of ethical AI practices and data privacy regulations to ensure responsible development and deployment.
-- **Problem-Solving and Adaptability:** Ability to navigate and solve complex technical challenges in a rapidly evolving field.
-- **Passion for Social Impact:** A deep interest in using technology for societal betterment, aligning with the vision outlined in [Gaming the Future](https://foresightinstitute.substack.com/p/start-here).
-
-**Why Join Us:**
 
 Your work will directly contribute to creating a world of abundance, peace, and universal well-being. You'll be at the forefront of AI development, working on groundbreaking technologies and concepts that could redefine our society. (If you like that kind of thing?)
 
 ## How to Apply
 
 Make a radical improvement to [this repository](https://github.com/wishocracy/positron) and submit a pull request. 
+
+Then email [hello@crowdsourcingcures.org](mailto:hello@crowdsourcingcures.org) with a link to your pull request and tell us why you have what it takes to become a paradise engineer!
+
+For more information on the responsibilities of a Paradise Engineer, see [Paradise Engineer Responsibilities](paradise_engineer_responsibilities.md).
+For more information on the skills and experience required, see [Paradise Engineer Skills and Experience](paradise_engineer_skills_experience.md).
+To apply for the Paradise Engineer position, see [Paradise Engineer Application](paradise_engineer_application.md). 
 
 Then email [hello@crowdsourcingcures.org](mailto:hello@crowdsourcingcures.org) with a link to your pull request and tell us why you have what it takes to become a paradise engineer!
