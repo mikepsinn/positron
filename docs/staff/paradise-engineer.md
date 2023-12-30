@@ -1,5 +1,7 @@
 ![Paradise Engineers Wanted](../../images/paradise-engineers-wanted.jpeg)
 
+<!-- File Summary: This document outlines the role and responsibilities of a Paradise Engineer, a prestigious position that entails developing a virtual world inhabited by pro-social AI agents. The primary mission involves three main steps: Learn, Plan, and Act - which collectively contribute to the creation and maintenance of an advanced and benevolent virtual society. -->
+
 ## Your Mission
 
 Create a forkable virtual world filled with pro-social AI agents that maximize universal wish fulfillment while respecting the basic rights of meat.
