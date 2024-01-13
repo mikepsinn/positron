@@ -48,7 +48,6 @@ The Positron repository is meant to be a collection of specific operationalized 
 
 - **Open-Source AI Models**: Model-agnostic configuration options are highly desirable as opposed to hard-coding dependency on closed-source proprietary APIs.
 - **Task-Optimized Small Language Models with RL** - Open-source small language models that are optimized for specific tasks have been shown to be more efficient and capable than generalized large language models in various tasks.
-
 **Preferred Technologies**: 
 
 - **JavaScript**: It's the most popular programming language and the only one that can be run in the following environments without any additional setup:
