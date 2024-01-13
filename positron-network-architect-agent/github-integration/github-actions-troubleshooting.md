@@ -1,6 +1,8 @@
 # GitHub Actions Troubleshooting Guide
 
 ## Introduction
+
+This section provides a brief overview of common issues that can cause GitHub Actions runs to fail and introduces the "Common Issues" subsection.
 Welcome to the GitHub Actions Troubleshooting Guide. This guide aims to help you troubleshoot and resolve common issues encountered during GitHub Actions runs. By following the steps outlined in this guide, you will be able to interpret error logs, identify the root causes of failures, and implement appropriate fixes.
 
 ## Interpreting Error Logs
@@ -17,6 +19,25 @@ To identify the root causes of GitHub Actions failures, follow these steps:
 2. Search for specific keywords or error codes to narrow down the problem.
 3. Check for syntax errors, missing dependencies, or configuration problems.
 4. Review recent changes to the repository that might have introduced the issue.
+
+## Common Issues
+
+This subsection provides a list of common issues that can cause GitHub Actions runs to fail, as well as a brief description of each issue. It references the relevant sections in the file for more information on troubleshooting each issue.
+
+1. Authentication Issues:
+   - Ensure that the necessary authentication tokens or credentials are correctly configured. @0
+   - Verify that the access permissions are sufficient for the actions being performed. @1
+   - Double-check the authentication setup in the workflow file. @2
+
+2. Environment Setup Issues:
+   - Check for missing or incorrect environment variables required by the workflow. @3
+   - Verify that the required dependencies are installed or available in the workflow environment. For more information, refer to the section on "Environment Setup Issues." @4
+   - Review any specific setup steps mentioned in the workflow file. @5
+
+3. Workflow Configuration Issues:
+   - Validate the syntax and structure of the workflow file. For more information, refer to the section on "Workflow Configuration Issues." @6
+   - Confirm that the workflow triggers and conditions are correctly defined. @7
+   - Check for any misconfigured steps, inputs, or outputs. @8
 
 ## Implementing Fixes
 Once you have identified the root cause of a GitHub Actions failure, you can proceed with implementing the appropriate fix. Here are some common fixes for different types of issues:
