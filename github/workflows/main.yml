@@ -24,7 +24,7 @@ jobs:
 echo 'Dependencies installed'
         run: npm install
 
-      - - name: Build project
+      - - name: Build and test
         run: |
           npm run build
 echo 'Project built'
@@ -34,4 +34,4 @@ echo 'Project built'
         run: |
           npm run test
 echo 'Tests run'
-        run: npm run test
+        run: npm test
