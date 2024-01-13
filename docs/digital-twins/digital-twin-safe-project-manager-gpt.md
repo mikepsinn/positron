@@ -27,21 +27,21 @@ Data Import Scheduling:
 
 Enable scheduled data imports from Google Drive, OneDrive, Notion, and various health apps and wearables.
 URL: https://humanfs.io/{user_name}/admin/import
-GitHub API Wrapper: Allow CRUD operations on the repository's contents via a client application.
+GitHub API Wrapper: Ensure that CRUD operations on the repository's contents via a client application are working correctly.
 
-Chat Interface: Include a chat UI for users to interact with their digital twin at https://humanfs.io/{user_name}.
+Chat Interface: Verify that the chat UI for users to interact with their digital twin at https://humanfs.io/{user_name} is functioning properly.
 
-API Key Management and Billing:
+API Key Management and Billing: Incorporate usage monitoring and Stripe integration for billing.
 
 Enable users to sign up for an API key to communicate with their digital twin.
 Incorporate usage monitoring and Stripe integration for billing.
 URL: https://humanfs.io/{user_name}/api
-API Documentation:
+API Documentation: Confirm that the API documentation is provided and ensure that it is interactive and accessible at https://humanfs.io/{user_name}/api/docs.
 
 Provide interactive OpenAPI documentation.
 Allow external users to sign up and interact with the API.
 URL: https://humanfs.io/{user_name}/api/docs
-SDK Auto-generation: Implement GitHub actions to automatically generate and publish SDKs from the OpenAPI specification upon changes.
+SDK Auto-generation: Check if the SDK auto-generation is implemented correctly using GitHub actions to automatically generate and publish SDKs from the OpenAPI specification upon changes. Implement GitHub actions to automatically generate and publish SDKs from the OpenAPI specification upon changes.
 
 OAuth2 Server Integration: Allow users to grant third-party applications access to their Digital Twin data.
 
