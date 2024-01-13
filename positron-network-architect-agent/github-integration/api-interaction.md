@@ -37,6 +37,18 @@ def update_configuration_file(updated_instructions, config_file_path):
     # Replace the existing token in the configuration file
     new_config_contents = config_contents.replace('<existing_token>', updated_instructions)
 
+    # Add new section to API Interaction documentation
+    new_section = "### API Interaction\n\nThis section explains the specific endpoints used by the agent for creating and managing documentation.\n\n- Endpoint 1: /create_documentation\n- Endpoint 2: /update_documentation\n- Endpoint 3: /delete_documentation\n\nPlease refer to the API documentation for more details.\n\n"
+    updated_contents = file_contents.replace(instructions, updated_instructions + new_section)
+    write_file(file_path, updated_contents)
+    return updated_contents
+new_section = "### API Interaction\n\nThis section explains the specific endpoints used by the agent for creating and managing documentation.\n\n- Endpoint 1: /create_documentation\n- Endpoint 2: /update_documentation\n- Endpoint 3: /delete_documentation\n\nPlease refer to the API documentation for more details.\n\n"
+updated_contents = file_contents.replace(instructions, updated_instructions + new_section)
+write_file(file_path, updated_contents)
+return updated_contents
+    # Replace the existing token in the configuration file
+    new_config_contents = config_contents.replace('<existing_token>', updated_instructions)
+
     write_file(config_file_path, new_config_contents)
 
 # Example usage
