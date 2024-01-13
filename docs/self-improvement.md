@@ -18,12 +18,12 @@ considering various uncertainties and limitations:
         - Yes: Proceed to webhook.
         - No: Ask clarifying questions.
 
-2. **Webhook Triggered**
+2. **Webhook Processing**
     - **Can the model process the issue?**
         - Yes: Conduct research and development.
         - No: Create an issue for human assistance.
 
-3. **Research and Development**
+3. **Research & Development**
     - **Is relevant information found?**
         - Yes: Develop code and documentation.
         - No: Create a bounty for the task.
@@ -46,7 +46,7 @@ considering various uncertainties and limitations:
 7. **Handling Limitations**
     - **Can the system address its limitations?**
         - Yes: Implement solutions.
-        - No: Seek human developer intervention.
+        - No: Seek human intervention.
 
 ### Decision Tree Diagram
 
