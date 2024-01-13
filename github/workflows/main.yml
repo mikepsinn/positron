@@ -3,7 +3,7 @@ name: Build and Test
 on:
   push:
     branches:
-      - main\n  pull_request
+      - pull_request
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
+            - name: Install Node.js
         uses: actions/setup-node@v2
         with:
           node-version: 14
@@ -35,7 +35,7 @@ echo 'Project built'
 echo 'Project deployed'
         run: npm run build
 
-      - - name: Run tests
+            - name: Finalize
         run: |
       NODE_ENV: 'production' npm run build
       echo 'Project built'
