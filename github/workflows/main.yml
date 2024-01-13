@@ -28,6 +28,11 @@ echo 'Dependencies installed'
         run: |
           npm run build
 echo 'Project built'
+
+      - - name: Deploy
+        run: |
+          npm run deploy
+echo 'Project deployed'
         run: npm run build
 
       - - name: Run tests
