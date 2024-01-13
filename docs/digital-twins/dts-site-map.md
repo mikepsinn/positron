@@ -33,7 +33,8 @@
 11. **Settings and Customization (Accessible via Dashboard)**
     - **Description:** This section lets users customize their digital twin's appearance and personality, manage privacy settings, and configure notification preferences.
 
-12. **User Support and Tutorial**
+12. **API Documentation (URL: `https://humanfs.io/{user_name}/api/docs`)
+   - **Description:** Provides comprehensive and interactive OpenAPI documentation. External users can sign up and interact with the API through this documentation page.**
     - **Description:** A resource section with tutorials on creating and managing digital twins, and a support system for user inquiries.
 
 13. **Feedback and Community Forum**
