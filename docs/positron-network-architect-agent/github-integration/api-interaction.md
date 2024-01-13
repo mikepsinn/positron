@@ -8,6 +8,14 @@ The GitHub API is a REST API that allows developers to programmatically interact
 
 ### Authentication
 
+#### Troubleshooting Authentication
+
+If you encounter authentication issues, you can check and update the personal access token used for authentication with GitHub. Make sure that the token has the necessary scopes and hasn't expired.
+
+#### Potential Solutions
+
+If you are still facing authentication issues, you can reference the newly created "error-logs.md" file for troubleshooting the specific error logs from the failed GitHub Actions run.
+
 The GitHub API uses OAuth 2.0 for authentication. This means that the agent must be authorized to access the repository before it can make any requests. The agent uses a personal access token to authenticate with GitHub. This token is stored in the agent's configuration file.
 
 ### Endpoints
