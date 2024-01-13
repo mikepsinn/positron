@@ -8,7 +8,7 @@ The GitHub API is a REST API that allows developers to programmatically interact
 
 ### Authentication
 
-The GitHub API uses OAuth 2.0 for authentication. This means that the agent must be authorized to access the repository before it can make any requests. The agent uses a personal access token to authenticate with GitHub. This token is stored in the agent's configuration file.
+The GitHub API uses OAuth 2.0 for authentication. This means that the agent must be authorized to access the repository before it can make any requests. The agent uses a personal access token to authenticate with GitHub. Follow the instructions below to generate and store a personal access token: This token is stored in the agent's configuration file, and it is important to ensure that the access token has the necessary permissions to interact with the repository.
 
 ### Endpoints
 
