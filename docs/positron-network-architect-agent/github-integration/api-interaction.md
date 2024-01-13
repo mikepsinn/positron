@@ -16,7 +16,9 @@ The GitHub API provides endpoints for creating and managing issues, pull request
 
 ## Usage
 
-The agent uses the GitHub API to create and manage documentation. It uses the following endpoints:
+To use the GitHub API endpoints correctly, follow the instructions below:
+
+The agent uses the GitHub API to create and manage documentation. It is important to use the correct endpoint for creating and managing documentation, specifically for creating issues and pull requests. The agent uses the following endpoints:
 
 - [Create Issue](https://docs.github.com/en/rest/reference/issues#create-an-issue)
 - [Create Pull Request](https://docs.github.com/en/rest/reference/pulls#create-a-pull-request)
