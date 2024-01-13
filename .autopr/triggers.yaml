@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/irgolic/AutoPR/main/trigger_schema.json
 
 triggers:
-  - label_substring: summarize
+  - label_substring: <NEW_LABEL>
     on_issue: false
     on_pull_request: true
     run: summarize_pr
