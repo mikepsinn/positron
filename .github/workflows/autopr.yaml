@@ -18,7 +18,7 @@ jobs:
   autopr:
     runs-on: ubuntu-latest
     steps:
-      - name: Install jq
+      - name: Install jq and jq-coreutils
         run: sudo apt-get install jq
       - name: Check if label was added by a collaborator
         env:
@@ -33,7 +33,7 @@ jobs:
             exit 78
           fi
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.3.2
         with:
           ref: main
           fetch-depth: 1
