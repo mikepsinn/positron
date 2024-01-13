@@ -36,7 +36,7 @@ The Positron repository is meant to be a collection of specific operationalized 
 4. **External Framework Contributions**: Improvements to third-party open-source libraries or other autonomous agent frameworks that are used by Positron agents or the Positron Framework should be encouraged and rewarded.  One should provide a link to their external repo-commits and an illustration of the benefits with an agent implementation.
 
 ### Prize Eligibility Requirements
-- **Open-Source**: Must be licensed under [GPLv3](../../LICENSE).
+- **Open-Source**: Must be licensed under [MIT](../../LICENSE).
 - **Functional Implementation**: Must include a [GitHub Action Configuration](https://docs.github.com/en/actions) be functional in a pull request to the [Positron repository](https://github.com/wishocracy/positron).
   - **Web Deployments**: If your contribution has an API component or web-based UI interface, your GitHub Action should also include an automated deployment configuration to a platform like [Vercel](https://vercel.com/).
   - **Headless Agents**: If your contribution is a headless agent, it should include a GitHub Action that runs the agent on a schedule or trigger.
