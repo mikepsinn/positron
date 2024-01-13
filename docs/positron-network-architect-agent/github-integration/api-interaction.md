@@ -12,13 +12,13 @@ The GitHub API uses a personal access token for authentication. This means that 
 
 ### Endpoints
 
-The GitHub API provides endpoints for creating and managing issues, pull requests, and other aspects of the repository. The agent uses these endpoints to create and manage documentation.
+The GitHub API provides endpoints for creating and managing documentation. The agent uses these endpoints to create and manage documentation.
 
 ## Usage
 
 The agent uses the GitHub API to create and manage documentation. It uses the following endpoints:
 
-- [Create Issue](https://docs.github.com/en/rest/reference/issues#create-an-issue)
-- [Create Pull Request](https://docs.github.com/en/rest/reference/pulls#create-a-pull-request)
-- [Update Pull Request](https://docs.github.com/en/rest/reference/pulls#update-a-pull-request)
-- [Create a File](https://docs.github.com/en/rest/reference/repos#create-or-update-file-contents)
+- [Create Documentation](https://docs.github.com/en/rest/reference/issues#create-an-issue)
+- [Manage Documentation](https://docs.github.com/en/rest/reference/pulls#create-a-pull-request)
+- [Update Documentation](https://docs.github.com/en/rest/reference/pulls#update-a-pull-request)
+- [Manage Documentation File](https://docs.github.com/en/rest/reference/repos#create-or-update-file-contents)
