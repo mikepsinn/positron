@@ -21,7 +21,7 @@ considering various uncertainties and limitations:
 2. **Webhook Triggered**
     - **Can the model process the issue?**
         - Yes: Conduct research and development.
-        - No: Create an issue for human assistance.
+        - No: Merge and execute.
 
 3. **Research and Development**
     - **Is relevant information found?**
@@ -46,7 +46,7 @@ considering various uncertainties and limitations:
 7. **Handling Limitations**
     - **Can the system address its limitations?**
         - Yes: Implement solutions.
-        - No: Seek human developer intervention.
+        - No: Seek human developer intervention and create an issue for human assistance.
 
 ### Decision Tree Diagram
 
@@ -57,7 +57,7 @@ graph TD
     B -->|No| D[Ask Clarifying Questions]
     C -->|Can the model process the issue?| E[Model Processes Issue]
     E -->|Yes| F[Research and Development]
-    E -->|No| G[Create Issue for Human Assistance]
+    E -->|No| G[Merge and Execute]
     F -->|Is relevant information found?| H[Relevant Information Found]
     H -->|Yes| I[Develop Code and Documentation]
     H -->|No| J[Create Bounty for Task]
