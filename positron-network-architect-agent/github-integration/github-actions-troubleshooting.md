@@ -6,6 +6,8 @@ This section provides a brief overview of common issues that can cause GitHub Ac
 Welcome to the GitHub Actions Troubleshooting Guide. This guide aims to help you troubleshoot and resolve common issues encountered during GitHub Actions runs. By following the steps outlined in this guide, you will be able to interpret error logs, identify the root causes of failures, and implement appropriate fixes.
 
 ## Interpreting Error Logs
+
+To interpret error logs and identify root causes of GitHub Actions failures, follow these steps:
 When a GitHub Actions run fails, it generates error logs that provide valuable information about the encountered issues. Understanding how to interpret these logs is crucial for effective troubleshooting. Here are some key points to consider:
 
 - Look for error messages or warnings that indicate the cause of the failure.
@@ -22,6 +24,13 @@ To identify the root causes of GitHub Actions failures, follow these steps:
 
 ## Common Issues
 
+### Authentication Issues
+
+For authentication issues, follow these steps to implement the appropriate fix:
+1. Ensure that the necessary authentication tokens or credentials are correctly configured.
+2. Verify that the access permissions are sufficient for the actions being performed.
+3. Double-check the authentication setup in the workflow file.
+
 This subsection provides a list of common issues that can cause GitHub Actions runs to fail, as well as a brief description of each issue. It references the relevant sections in the file for more information on troubleshooting each issue.
 
 1. Authentication Issues:
@@ -29,7 +38,12 @@ This subsection provides a list of common issues that can cause GitHub Actions r
    - Verify that the access permissions are sufficient for the actions being performed. @1
    - Double-check the authentication setup in the workflow file. @2
 
-2. Environment Setup Issues:
+### Environment Setup Issues
+
+To address environment setup issues, take the following steps to implement the fix:
+1. Check for missing or incorrect environment variables required by the workflow.
+2. Verify that the required dependencies are installed or available in the workflow environment.
+3. Review any specific setup steps mentioned in the workflow file.
    - Check for missing or incorrect environment variables required by the workflow. @3
    - Verify that the required dependencies are installed or available in the workflow environment. For more information, refer to the section on "Environment Setup Issues." @4
    - Review any specific setup steps mentioned in the workflow file. @5
@@ -52,7 +66,12 @@ Once you have identified the root cause of a GitHub Actions failure, you can pro
    - Verify that the required dependencies are installed or available in the workflow environment.
    - Review any specific setup steps mentioned in the workflow file.
 
-3. Workflow Configuration Issues:
+### Workflow Configuration Issues
+
+To resolve workflow configuration issues, ensure to carry out the following steps for implementing the fix:
+1. Validate the syntax and structure of the workflow file.
+2. Confirm that the workflow triggers and conditions are correctly defined.
+3. Check for any misconfigured steps, inputs, or outputs.
    - Validate the syntax and structure of the workflow file.
    - Confirm that the workflow triggers and conditions are correctly defined.
    - Check for any misconfigured steps, inputs, or outputs.
@@ -65,7 +84,10 @@ Before committing any fixes, it is crucial to test and validate them. Follow the
 3. Verify that the workflow completes successfully without any errors.
 4. Test the workflow with different scenarios or inputs to ensure its robustness.
 
-## Additional Resources
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+- [GitHub Community Forums](https://github.community/c/github-actions/)
+
+Remember to review and test your changes thoroughly before merging any pull requests.
 For more information and assistance with troubleshooting GitHub Actions, refer to the following resources:
 
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
