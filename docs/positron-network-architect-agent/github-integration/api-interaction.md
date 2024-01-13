@@ -4,7 +4,7 @@ The Positron Network Architect Agent interacts with the GitHub API to create and
 
 ## GitHub API
 
-The GitHub API is a REST API that allows developers to programmatically interact with GitHub repositories. It provides endpoints for creating and managing issues, pull requests, and other aspects of the repository.
+The GitHub API uses OAuth 2.0 for authentication. This means that the agent must be authorized to access the repository before it can make any requests. The agent uses a personal access token to authenticate with GitHub. This token is stored in the agent's configuration file.
 
 ### Authentication
 
