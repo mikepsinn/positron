@@ -12,7 +12,9 @@
 4. **Data Import Page (URL: `https://humanfs.io/{user_name}/admin/import`)**
    - **Description:** This section allows users to schedule and manage data imports from Google Drive, OneDrive, Notion, and health apps. Users can set import frequency and select the types of data they wish to sync.
 
-5. **GitHub Repository Synchronization**
+5. **GitHub Actions Troubleshooting**
+   - **Description:** This section provides links to relevant documentation, tutorials, and support channels for troubleshooting and resolving failing GitHub Actions within the user dashboard.
+  - **Description:** This section provides guidance and resources for troubleshooting and resolving issues with GitHub Actions integration within the user dashboard.
    - **Description:** Integrated within the user dashboard, this feature enables synchronization of user data with a GitHub repository. It supports markdown and CSV formats and allows for version control of the digital twin's data.
 
 6. **Chat Interface (URL: `https://humanfs.io/{user_name}`)**
@@ -24,7 +26,9 @@
 8. **API Documentation (URL: `https://humanfs.io/{user_name}/api/docs`)**
    - **Description:** Provides comprehensive and interactive OpenAPI documentation. It allows users and external developers to understand how to interact with the API.
 
-9. **SDK Auto-generation**
+9. **GitHub Actions SDK Auto-generation**
+   - **Description:** This section provides links to documentation and tutorials for configuring and maintaining GitHub Actions for SDK auto-generation. It also includes information on troubleshooting failing GitHub Actions.
+   - **Description:** This section provides links to documentation and tutorials for configuring and maintaining GitHub Actions for SDK auto-generation.
    - **Description:** This is an automated process triggered by GitHub actions. It’s not a user-facing page but an important part of the backend infrastructure, ensuring that SDKs are up-to-date with the latest API specifications.
 
 10. **OAuth2 Server Integration**
