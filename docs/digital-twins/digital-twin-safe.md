@@ -59,3 +59,6 @@ This outlines the requirements for a tool to allow people to create and manage t
 
 10. **Community Features:** Create a community forum or space where users can share experiences, tips, and best practices related to their digital twins.
 
+## Data Sources
+
+See [Data Sources](digital-twin-data-sources.md) for a list of data sources that can be used to create a digital twin.
