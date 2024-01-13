@@ -19,6 +19,7 @@
 31:    - **Description:** Provides comprehensive and interactive OpenAPI documentation. It allows users and external developers to understand how to interact with the API.
 32: 
 33: 9. **SDK Auto-generation**
+34:    - **Description:** This automated process, triggered by GitHub actions, is a critical part of the infrastructure that ensures the SDKs are always up-to-date with the latest API specifications.
 34:    - **Description:** This is an automated process triggered by GitHub actions. It’s not a user-facing page but an important part of the backend infrastructure, ensuring that SDKs are up-to-date with the latest API specifications.
 35: 
 36: 10. **OAuth2 Server Integration**
