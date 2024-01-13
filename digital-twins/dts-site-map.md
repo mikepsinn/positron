@@ -1,7 +1,7 @@
 ...
 14: 
 15: 5. **GitHub Repository Synchronization**
-16:    - **Description:** Integrated within the user dashboard, this feature enables synchronization of user data with a GitHub repository. It supports markdown and CSV formats and allows for version control of the digital twin's data. If you encounter any synchronization issues, please follow the troubleshooting steps below.
+16:    - **Description:** Integrated within the user dashboard, this feature enables synchronization of user data with a GitHub repository. It supports markdown and CSV formats for user data and allows for version control of the digital twin's data. If you encounter any synchronization issues, please follow the troubleshooting steps below.
 17:      - **Troubleshooting:**
 18:        1. Ensure that your GitHub repository is properly configured with the necessary permissions for the synchronization process.
 19:        2. Check if there are any errors or warnings in the GitHub Actions logs related to the synchronization process.
