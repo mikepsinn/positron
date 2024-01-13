@@ -30,7 +30,7 @@ considering various uncertainties and limitations:
 
 4. **Create Pull Request**
     - **Is the pull request approved by humans?**
-        - Yes: Merge and execute.
+# Commit message: "feat: Fix the failing GitHub Actions"  - Yes: Merge and execute.
         - No: Modify based on feedback.
 
 5. **Merge and Execute**
