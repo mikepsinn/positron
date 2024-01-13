@@ -70,6 +70,7 @@ Review and voting on pull requests in Positron repository.
 - Submissions via pull requests.
 - Judges review, approve, or request changes.
 - Rationale and feedback provided in comments.
+- Judges leave comments to approve or request changes.
 
 - **Prize Distribution**: Divided among successful pull request merges.
 
