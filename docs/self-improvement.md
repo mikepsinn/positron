@@ -18,9 +18,9 @@ considering various uncertainties and limitations:
         - Yes: Proceed to webhook.
         - No: Ask clarifying questions.
 
-2. **Webhook Triggered: Ensure Correct Trigger**
+2. **Webhook URL: Ensure Correct Trigger**
     - **Webhook URL:** Ensure the webhook URL is correct and triggers correct processing
-        - Yes: Conduct research and development.
+        - Yes: Trigger webhook for issue processing.
         - No: Create an issue for human assistance.
 
 3. **Research and Development**
