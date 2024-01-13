@@ -38,9 +38,10 @@ jobs:
           ref: main
           fetch-depth: 1
       - name: AutoPR
-        uses: irgolic/AutoPR@main
+        uses: actions/AutoPR@main
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           base_branch: main
