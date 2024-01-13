@@ -12,7 +12,7 @@ The GitHub API uses personal access token for authentication. This means that th
 
 ### Endpoints
 
-The GitHub API provides endpoints for creating and managing issues, pull requests, and other aspects of the repository. The agent uses these endpoints to create and manage documentation.
+The GitHub API provides endpoints for creating and managing issues, pull requests, and other aspects of the repository. The agent uses these endpoints to create and manage documentation. Specific endpoints used include:
 
 ## Usage
 
