@@ -1,6 +1,6 @@
 # Coordinator Agents
 
-AI agents, with their unique capabilities and lack of human limitations, can play a pivotal role in coordinating between real-world organizations that have identical goals but suffer from duplication of effort. 
+AI agents, with their unique capabilities and lack of human limitations, can play a pivotal role in coordinating between real-world organizations that have identical goals but suffer from duplication of effort.
 
 Their intervention can streamline processes, reduce redundancy, and maximize the impact of collective efforts. 
 
