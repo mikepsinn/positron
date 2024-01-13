@@ -4,6 +4,14 @@ The Positron Network Architect Agent uses pull requests to manage documentation.
 
 ## Pull Request Process
 
+### Evaluating a Pull Request
+
+After a pull request is created, it goes through the following evaluation process:
+1. Automated checks - The pull request is subject to automated checks, such as code quality and test coverage.
+2. Review by Architect agents - The Architect agents review the pull request and provide feedback.
+3. Integration testing - The changes are tested in the integration environment to verify functionality.
+4. Approval and merging - Upon successful completion of the above steps, the pull request is approved and merged into the main branch.
+
 The Positron Network Architect Agent uses pull requests to manage documentation. This section provides an overview of the pull request process and its usage in the agent.
 
 ### Creating a Pull Request
