@@ -133,7 +133,7 @@ self-improving-repo/
 │   └── pr_creator/         # Agent for creating pull requests
 │
 ├── src/                    # Source code for the project
-│   ├── utils/              # Utility scripts and modules
+│   ├── utilities/              # Utility scripts and modules
 │   ├── main.py             # Main application script
 │   └── requirements.txt    # Python dependencies
 │
