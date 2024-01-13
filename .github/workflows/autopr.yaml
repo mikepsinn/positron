@@ -18,8 +18,7 @@ jobs:
   autopr:
     runs-on: ubuntu-latest
     steps:
-      - name: Install jq
-        run: sudo apt-get install jq
+      
       - name: Check if label was added by a collaborator
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
