@@ -13,7 +13,7 @@ Humans review the code contributions and can reject, request changes, or merge t
 Here's a simplified version of the decision-making process at each stage,
 considering various uncertainties and limitations:
 
-1. **User Creates Issue**
+1. **Troubleshooting and Best Practices for GitHub Actions and Workflow Configurations**
     - **Is the issue clear?**
         - Yes: Proceed to webhook.
         - No: Ask clarifying questions.
@@ -23,7 +23,7 @@ considering various uncertainties and limitations:
         - Yes: Conduct research and development.
         - No: Create an issue for human assistance.
 
-3. **Research and Development**
+3. **Best Practices for Troubleshooting and Development**
     - **Is relevant information found?**
         - Yes: Develop code and documentation.
         - No: Create a bounty for the task.
@@ -38,7 +38,7 @@ considering various uncertainties and limitations:
         - Yes: Store output and analyze for self-improvement.
         - No: Create an issue for debugging.
 
-6. **Continuous Self-Improvement**
+6. **Troubleshooting and Best Practices**
     - **Are improvements identified?**
         - Yes: Implement improvements.
         - No: Continue monitoring.
