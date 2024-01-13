@@ -32,8 +32,33 @@ jobs:
             echo "Label not added by a collaborator. Skipping action."
             exit 78
           fi
-      - name: Checkout
-        uses: actions/checkout@v2
+      - name: AutoPR
+        uses: irgolic/AutoPR@main
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          base_branch: main
+      - name: Error handling and logging
+        run: |
+          if [ -z "$is_collaborator" ]; then
+            echo "Failed to retrieve is_collaborator variable."
+            exit 1
+          fi
+          if [ "$is_collaborator" != "Not Found" ] && [ "$is_collaborator" != "null" ]; then
+            echo "Label added by a non-collaborator. Skipping action."
+            exit 1
+          fi
+      - name: Detailed error messages
+        run: |
+          if [ "$is_collaborator" == "null" ]; then
+            echo "Label added by a non-collaborator. Skipping action."
+            exit 1
+          fi
+          if [ "$is_collaborator" == "Not Found" ]; then
+            echo "Label not added by a collaborator. Skipping action."
+            exit 1
+          fi
         with:
           ref: main
           fetch-depth: 1
