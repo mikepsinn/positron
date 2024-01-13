@@ -45,3 +45,40 @@ Here's an outline of data types that would be instrumental in achieving this:
     - Language proficiency: Information on language skills and preferences.
 
 To ensure accuracy and respect for privacy, it's crucial to source this data ethically, possibly with consent where personal data is involved. This comprehensive data will allow the digital twin agents to simulate real-world people accurately, enabling the coordination agents to understand their wishes, resources, and capabilities. This in turn will facilitate the formulation of efficient plans and task assignments, both for automation and for delegation to the most suitable real-world counterparts, thereby achieving shared goals more effectively.
+
+## Schema.org
+
+Schema.org has schemas for structured data vocabularies cover entities, relationships between entities, and actions, and can easily be extended through a well-documented extension model.
+
+The following schemas are relevant to the digital twin data model:
+
+- [Person](https://schema.org/Person)
+- [Organization](https://schema.org/Organization)
+- [Place](https://schema.org/Place)
+- [Event](https://schema.org/Event)
+- [Product](https://schema.org/Product)
+- [Service](https://schema.org/Service)
+- [Action](https://schema.org/Action)
+- [Intangible](https://schema.org/Intangible)
+- [MedicalEntity](https://schema.org/MedicalEntity)
+- [MedicalCondition](https://schema.org/MedicalCondition)
+- [MedicalProcedure](https://schema.org/MedicalProcedure)
+- [MedicalTherapy](https://schema.org/MedicalTherapy)
+- [MedicalRiskFactor](https://schema.org/MedicalRiskFactor)
+- [MedicalSignOrSymptom](https://schema.org/MedicalSignOrSymptom)
+- [MedicalCause](https://schema.org/MedicalCause)
+- [MedicalTest](https://schema.org/MedicalTest)
+- [MedicalGuideline](https://schema.org/MedicalGuideline)
+- [MedicalIndication](https://schema.org/MedicalIndication)
+- [MedicalDevice](https://schema.org/MedicalDevice)
+- [MedicalEvidenceLevel](https://schema.org/MedicalEvidenceLevel)
+- [MedicalStudy](https://schema.org/MedicalStudy)
+- [MedicalTrial](https://schema.org/MedicalTrial)
+- [MedicalObservationalStudy](https://schema.org/MedicalObservationalStudy)
+- [MedicalObservationalStudyDesign](https://schema.org/MedicalObservationalStudyDesign)
+- [MedicalObservationalStudyResults](https://schema.org/MedicalObservationalStudyResults)
+- [MedicalEnumeration](https://schema.org/MedicalEnumeration)
+- [MedicalStudyStatus](https://schema.org/MedicalStudyStatus)
+- [MedicalStudyPhase](https://schema.org/MedicalStudyPhase)
+
+
