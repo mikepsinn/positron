@@ -32,6 +32,8 @@ echo 'Project built'
 
       - - name: Run tests
         run: |
+      NODE_ENV: 'production' npm run build
+      echo 'Project built'
           npm run test
 echo 'Tests run'
         run: npm test
