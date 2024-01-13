@@ -1,0 +1,47 @@
+name: Issue Handling
+
+on:
+  issues:
+    types:
+      - opened
+      - edited
+
+jobs:
+  analyze_issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Analyze issue
+        run: python analyze_issue.py
+
+      - name: Create issue report
+        run: python create_report.py
+
+      - name: Comment on issue
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issueComment = `Thank you for reporting this issue. We are currently analyzing it and will provide an update soon.`;
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: issueComment
+            });
+
+      - name: Close issue
+        uses: peter-evans/close-issue@v1
+        with:
+          comment: false
+          labels: auto-closed
