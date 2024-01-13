@@ -20,9 +20,9 @@ GitHub Repository Synchronization: The platform will sync user data to a GitHub 
 
 Authentication and Integration:
 
-Utilize Next.js and NextAuth for the framework and authentication.
-Support GitHub and Google login options.
-URL: https://humanfs.io/{user_name}/
+- Utilize Next.js and NextAuth frameworks for authentication.
+Support GitHub and Google login options for authentication.
+Support Next.js and NextAuth frameworks for authentication.
 Data Import Scheduling:
 
 Enable scheduled data imports from Google Drive, OneDrive, Notion, and various health apps and wearables.
