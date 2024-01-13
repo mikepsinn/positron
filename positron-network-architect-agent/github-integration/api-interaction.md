@@ -21,7 +21,9 @@ If the GitHub Actions run is failing due to authentication issues, follow these 
 5. Update the value of the personal access token with a valid token.
 6. Save the changes.
 
-### Endpoints
+### Endpoint Verification and Configuration
+
+To check and verify the endpoints used by the agent and ensure they are accessible and properly configured, follow these steps:
 
 The GitHub API provides endpoints for creating and managing issues, pull requests, and other aspects of the repository. The agent uses these endpoints to create and manage documentation.
 
@@ -44,4 +46,4 @@ To check and update the personal access token used for authentication, follow th
 5. Update the value of the personal access token with a new token if necessary.
 6. Save the changes.
 
-By following these steps, you can ensure that the agent has the correct personal access token for authentication.
+To ensure that the required endpoints are accessible and properly configured, follow these steps:
