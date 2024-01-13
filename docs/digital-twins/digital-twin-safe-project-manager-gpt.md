@@ -19,8 +19,10 @@ Automated Digital Twin Creation: Users should be able to automatically generate 
 GitHub Repository Synchronization: The platform will sync user data to a GitHub repository in markdown and CSV formats.
 
 Authentication and Integration:
+URL: https://new-correct-url.com/{user_name}/
 
 Utilize Next.js and NextAuth for the framework and authentication.
+URL: https://new-correct-url.com/{user_name}/
 Support GitHub and Google login options.
 URL: https://humanfs.io/{user_name}/
 Data Import Scheduling:
