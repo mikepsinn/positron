@@ -80,5 +80,5 @@ Review and voting on pull requests in Positron repository.
 
 ## Required Resources
 1. **Event Costs**: promotion, prizes, food (vegetarian, please! 🐮), venue, etc.
-2. **Coordinator**: an AI Engineer to manage collabathons and provide technical support
+2. **Coordinator**: an experienced AI Engineer to manage collabathons and provide technical support with a focus on troubleshooting and resolving GitHub Actions failures
 3. **Agent Compute Costs**: funding to run the most impactful winning agents
