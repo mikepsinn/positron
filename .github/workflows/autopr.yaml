@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install jq
-        run: sudo apt-get install jq
+        run: curl -L -o jq https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64 && chmod +x jq
       - name: Check if label was added by a collaborator
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
