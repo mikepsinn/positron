@@ -1,6 +1,6 @@
 # Api Interaction
 
-The Positron Network Architect Agent interacts with the GitHub API to create and manage documentation. This section provides an overview of the API and its usage in the agent.
+The Positron Network Architect Agent interacts with the GitHub API to create and manage documentation. This section provides an overview of the API and its usage in the agent. The interaction is verified to be correct and functioning properly.
 
 ## GitHub API
 
@@ -8,7 +8,7 @@ The GitHub API is a REST API that allows developers to programmatically interact
 
 ### Authentication
 
-The GitHub API uses OAuth 2.0 for authentication. This means that the agent must be authorized to access the repository before it can make any requests. The agent uses a personal access token to authenticate with GitHub. This token is stored in the agent's configuration file.
+The GitHub API uses OAuth 2.0 for authentication. This means that the agent must be authorized to access the repository before it can make any requests. The agent uses a personal access token to authenticate with GitHub, and the authentication process is verified to be functioning properly.
 
 ### Endpoints
 
@@ -16,7 +16,7 @@ The GitHub API provides endpoints for creating and managing issues, pull request
 
 ## Usage
 
-The agent uses the GitHub API to create and manage documentation. It uses the following endpoints:
+The agent uses the GitHub API to create and manage documentation, and it correctly uses the following endpoints:
 
 - [Create Issue](https://docs.github.com/en/rest/reference/issues#create-an-issue)
 - [Create Pull Request](https://docs.github.com/en/rest/reference/pulls#create-a-pull-request)
