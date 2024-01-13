@@ -32,8 +32,8 @@ jobs:
   - name: Checkout
   uses: actions/checkout@v2
   with:
-    ref: main
-    fetch-depth: 1
+    ref: ${{ github.event.pull_request.base.sha }}
+    
     - name: AutoPR
       uses: irgolic/AutoPR@main
       env:
