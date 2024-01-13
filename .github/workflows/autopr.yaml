@@ -38,9 +38,13 @@ jobs:
           ref: main
           fetch-depth: 1
       - name: AutoPR
-        uses: irgolic/AutoPR@main
+        uses: positron/AutoPR@v2
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          REPO_NAME: ${{ github.repository }}
+          PR_TITLE: AutoPR Update
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           base_branch: main
