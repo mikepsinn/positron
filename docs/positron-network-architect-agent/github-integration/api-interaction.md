@@ -12,7 +12,7 @@ The GitHub API uses OAuth 2.0 for authentication. This means that the agent must
 
 ### Endpoints
 
-The GitHub API provides endpoints for creating and managing issues, pull requests, and other aspects of the repository. The agent uses these endpoints to create and manage documentation.
+The GitHub API provides endpoints for creating and managing issues, pull requests, and other aspects of the repository. The agent uses these endpoints to create and manage documentation. The agent uses these endpoints to create and manage documentation.
 
 ## Usage
 
