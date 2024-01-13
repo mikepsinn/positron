@@ -4,7 +4,8 @@ Given the limitations of current AI technology, it's important to consider how h
 
 The mechanism for human-AI cooperation in the Positron Network, uses GitHub issues and pull requests to blend human insights with AI's capabilities. This approach allows for effective collaboration, leveraging the strengths of both humans and AI in the network's development and maintenance. Here's how it works:
 
-**1. Issue Creation and Identification:**
+**1. Issue Creation and Identification 
+<!-- If encountering GitHub Actions failures, follow the steps below to troubleshoot and resolve the issue. -->:**
    - **AI-Generated Issues:** The AI, like the Positron Network Architect Agent, identifies potential enhancements or issues within the network. It then creates GitHub issues detailing these findings.
    - **Human-Generated Issues:** Network participants (developers, non-profit staff, etc.) can also create issues on GitHub to suggest changes, report bugs, or propose new features.
 
