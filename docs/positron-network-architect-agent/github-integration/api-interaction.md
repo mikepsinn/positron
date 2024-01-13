@@ -18,7 +18,7 @@ The GitHub API provides endpoints for creating and managing documentation. The a
 
 The agent uses the GitHub API to create and manage documentation. It uses the following endpoints:
 
-- [Create Documentation](https://docs.github.com/en/rest/reference/issues#create-an-issue)
+- [Create and Manage Documentation](https://docs.github.com/en/rest/reference/issues#create-an-issue)
 - [Manage Documentation](https://docs.github.com/en/rest/reference/pulls#create-a-pull-request)
 - [Update Documentation](https://docs.github.com/en/rest/reference/pulls#update-a-pull-request)
 - [Manage Documentation File](https://docs.github.com/en/rest/reference/repos#create-or-update-file-contents)
