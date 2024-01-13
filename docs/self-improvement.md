@@ -29,7 +29,7 @@ considering various uncertainties and limitations:
         - No: Create a bounty for the task.
 
 4. **Create Pull Request**
-    - **Is the pull request approved by humans?**
+    - **Are the pull requests reviewed and approved by humans?**
         - Yes: Merge and execute.
         - No: Modify based on feedback.
 
