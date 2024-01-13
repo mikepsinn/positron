@@ -18,7 +18,9 @@ to maximize wish fulfillment and minimize suffering by:
 - **Challenge Creation**: Non-Profits create "Wishes" for agents with highly specific SMART (Specific, Measurable, Achievable, Relevant, Time-bound) objectives that would advance their missions.
 - **Submission Platform**: Participants make submissions of their implementation via GitHub pull requests which are reviewed and voted on by judges.
 
-## Submission Guidelines
+## Reporting and Fixing Failed GitHub Actions
+
+**Submission Guidelines
 
 **Avoiding Wheel Reinvention**
 
@@ -58,7 +60,15 @@ The Positron repository is meant to be a collection of specific operationalized 
   - most OSes
 - **Python where necessary**: Has the most AI libraries and is the most popular language for AI development.
 
-## Evaluation and Rewards
+## Reviewing and Voting on GitHub Action Contributions
+
+**Judging Process**:
+Review and voting on pull requests in Positron repository.
+- Submissions via pull requests.
+- Judges review, approve, or request changes.
+- Rationale and feedback provided in comments.
+
+- **Prize Distribution**: Divided among successful pull request merges.
 **Judging Process**:
 Review and voting on pull requests in Positron repository.
 - Submissions via pull requests.
