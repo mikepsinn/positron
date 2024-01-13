@@ -33,10 +33,17 @@ Chat Interface: Include a chat UI for users to interact with their digital twin 
 
 API Key Management and Billing:
 
+The URL for accessing the API key management and billing page is: [API Key Management and Billing](https://humanfs.io/{user_name}/api)
+
+Users can sign up for an API key to communicate with their digital twin. The platform integrates usage monitoring and Stripe for billing purposes.
+
 Enable users to sign up for an API key to communicate with their digital twin.
 Incorporate usage monitoring and Stripe integration for billing.
 URL: https://humanfs.io/{user_name}/api
 API Documentation:
+
+Provide interactive OpenAPI documentation.
+Allow external users to sign up and interact with the API.
 
 Provide interactive OpenAPI documentation.
 Allow external users to sign up and interact with the API.
