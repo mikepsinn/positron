@@ -1,4 +1,4 @@
-name: GitHub Actions Workflow
+name: Build and Test
 
 on:
   push:
@@ -18,11 +18,20 @@ jobs:
         with:
           node-version: 14
 
-      - name: Install dependencies
+      - - name: Install dependencies
+        run: |
+          npm install
+echo 'Dependencies installed'
         run: npm install
 
-      - name: Build project
+      - - name: Build project
+        run: |
+          npm run build
+echo 'Project built'
         run: npm run build
 
-      - name: Run tests
+      - - name: Run tests
+        run: |
+          npm run test
+echo 'Tests run'
         run: npm run test
