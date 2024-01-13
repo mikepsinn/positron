@@ -58,7 +58,8 @@ graph TD
     C -->|Can the model process the issue?| E[Model Processes Issue]
     E -->|Yes| F[Research and Development]
     E -->|No| G[Create Issue for Human Assistance]
-    F -->|Is relevant information found?| H[Relevant Information Found]
+    - **Does research and development yield relevant information?**
+        - Yes: Develop relevant code and documentation.
     H -->|Yes| I[Develop Code and Documentation]
     H -->|No| J[Create Bounty for Task]
     I -->|Is the pull request approved?| K[Pull Request Approved]
