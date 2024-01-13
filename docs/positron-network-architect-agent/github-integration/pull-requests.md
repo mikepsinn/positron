@@ -24,7 +24,7 @@ The agent creates a pull request when it needs to update the documentation. It u
 4. Push the branch to the remote repository.
 5. Create a pull request on GitHub.
 6. A webhook or GitHub Action triggers a critic agent to review and critique the pull request.
-7. Human feedback - Humans can review the pull request and support or argue with the various Critic and Architect agents.  
-8. If the human reviewers like the changes, they can be merged. 
-9. If the human requests changes, the Architect agent will make the changes and the process will start over.
+7. Human feedback (optional step) - Humans can review the pull request and support or argue with the various Critic and Architect agents. If the human reviewers approve the changes, the pull request can be merged.  
+8. If the human reviewers approve the changes, the pull request can be merged.
+9. If the human requests changes, the Architect agent will make the changes and the process will start over. Once the changes are made, the pull request can be submitted for another round of review.
 
