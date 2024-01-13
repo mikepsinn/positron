@@ -1,0 +1,27 @@
+name: Issue Handling
+
+on:
+  issues:
+    types:
+      - opened
+      - edited
+      - closed
+
+jobs:
+  handle_issue:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Handle issue
+        run: python handle_issue.py
