@@ -35,9 +35,20 @@ The agent uses the GitHub API to create and manage documentation. It uses the fo
 - [Create Pull Request](https://docs.github.com/en/rest/reference/pulls#create-a-pull-request)
 - [Update Pull Request](https://docs.github.com/en/rest/reference/pulls#update-a-pull-request)
 
+## Troubleshooting and Error Handling
+To troubleshoot and fix issues related to creating and managing documentation using the GitHub API, follow these steps:
+
+1. Identify the error message or issue description.
+2. Search the GitHub API documentation for the error code or description.
+3. Check for relevant GitHub community forums or discussions related to the error.
+4. Review the agent configuration and verify the personal access token.
+5. If the issue persists, consider reaching out to GitHub support for assistance.
+
+For more information, refer to the [GitHub API Documentation](https://docs.github.com/en/rest).
+
 ## Checking and Updating Personal Access Token
 
-To check and update the personal access token used for authentication, follow these steps:
+To ensure that the required endpoints are accessible and properly configured, follow these steps:
 
 1. Open the GitHub repository where the agent is configured.
 2. Go to the "Settings" tab.
