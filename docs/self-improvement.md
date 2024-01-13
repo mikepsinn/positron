@@ -18,8 +18,8 @@ considering various uncertainties and limitations:
         - Yes: Proceed to webhook.
         - No: Ask clarifying questions.
 
-2. **Webhook Triggered**
-    - **Can the model process the issue?**
+2. **Webhook Triggered: Ensure Correct Trigger**
+    - **Webhook URL:** Ensure the webhook URL is correct and triggers correct processing
         - Yes: Conduct research and development.
         - No: Create an issue for human assistance.
 
