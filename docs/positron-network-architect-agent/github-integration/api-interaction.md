@@ -20,5 +20,5 @@ The agent uses the GitHub API to create and manage documentation. It uses the fo
 
 - [Create Issue](https://docs.github.com/en/rest/reference/issues#create-an-issue)
 - [Create Pull Request](https://docs.github.com/en/rest/reference/pulls#create-a-pull-request)
-- [Update Pull Request](https://docs.github.com/en/rest/reference/pulls#update-a-pull-request)
+- [- \[Update Pull Request\]\(https://docs.github.com/en/rest/reference/pulls#update-a-pull-request\)](https://docs.github.com/en/rest/reference/pulls#update-a-pull-request)
 - [Create a File](https://docs.github.com/en/rest/reference/repos#create-or-update-file-contents)
