@@ -15,7 +15,7 @@ to maximize wish fulfillment and minimize suffering by:
 ## Collabathon Details
 - **Location**: Hybrid online/IRL
 - **Participation Incentive**: Maybe $1000 in prizes per week
-- **Challenge Creation**: Non-Profits create "Wishes" for agents with highly specific SMART (Specific, Measurable, Achievable, Relevant, Time-bound) objectives that would advance their missions.
+- **Challenge Creation**: Non-Profits create "Wishes" for agents with highly specific SMART (Specific, Measurable, Achievable, Relevant, Time-bound) objectives that would advance their missions."Wishes" for agents with highly specific SMART (Specific, Measurable, Achievable, Relevant, Time-bound) objectives that would advance their missions.
 - **Submission Platform**: Participants make submissions of their implementation via GitHub pull requests which are reviewed and voted on by judges.
 
 ## Submission Guidelines
