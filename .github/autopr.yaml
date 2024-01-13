@@ -1,0 +1,33 @@
+name: Sweep
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: pytest
+
+      - name: Build and deploy
+        run: |
+          npm install
+          npm run build
+          npm run deploy
+
+      - name: Clean up
+        run: rm -rf node_modules
