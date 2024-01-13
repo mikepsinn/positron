@@ -58,10 +58,10 @@ Here are some ideas for the general implementation of an AI Coordination Agent t
    - Post suggestions for matches as comments in relevant GitHub issues
    - Offer AI assistance for automatable tasks in the discussion threads
 
-5. Centralized Discussion and Collaboration on GitHub
+5. AI Interaction in GitHub Threads for Information, Suggestions, and Automated Assistance
    - Use GitHub issues and discussions for ongoing communication between parties
    - Enable AI agents to interact within these threads to provide information, suggestions, and automated assistance
-   - Facilitate community-driven problem-solving and collaboration
+   - Enable community-driven problem-solving and collaboration through GitHub
 
 6. Continuous Monitoring and Improvement
    - Regularly monitor GitHub discussions for new opportunities and changing needs
