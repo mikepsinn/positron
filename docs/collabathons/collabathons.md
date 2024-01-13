@@ -50,6 +50,12 @@ The Positron repository is meant to be a collection of specific operationalized 
 - **Task-Optimized Small Language Models with RL** - Open-source small language models that are optimized for specific tasks have been shown to be more efficient and capable than generalized large language models in various tasks.
 
 **Preferred Technologies**: 
+- **JavaScript**: It's the most popular programming language and the only one that can be run in the following environments without any additional setup:
+  - GitHub Actions
+  - Vercel
+  - the browser
+  - most OSes
+- **Python where necessary**: Has the most AI libraries and is the most popular language for AI development. 
 
 - **JavaScript**: It's the most popular programming language and the only one that can be run in the following environments without any additional setup:
   - GitHub Actions
