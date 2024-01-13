@@ -1,7 +1,8 @@
 on:
   push:
     branches:
-      - main
+            - main
+      - v2
   issues:
     types: [labeled]
   issue_comment:
