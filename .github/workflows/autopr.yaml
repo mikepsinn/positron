@@ -38,7 +38,7 @@ jobs:
           ref: main
           fetch-depth: 1
       - name: AutoPR
-        uses: irgolic/AutoPR@main
+        uses: irgolic/AutoPR@v1
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         with:
