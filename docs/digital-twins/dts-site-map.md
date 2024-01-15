@@ -1,27 +1,27 @@
 ### Digital Twin Safe Sitemap
 
-1. **Home Page (URL: `https://humanfs.io/`)**
+1. **Home Page (URL: `https://example.com/`)**
    - **Description:** This is the landing page where users get an overview of the platform. It includes information about the digital twin concept, key features, user benefits, and calls to action for signing up or logging in.
 
 2. **Login/Signup Page**
    - **Description:** This page allows users to sign up for an account or log in using their Google or GitHub credentials. It integrates NextAuth for authentication and security.
 
-3. **Dashboard (URL: `https://humanfs.io/{user_name}`)**
+3. **Dashboard (URL: `https://example.com/{user_name}`)**
    - **Description:** After logging in, users are directed to their personalized dashboard. Here, they can view their digital twin, manage settings, and access various features such as data import, API key management, and billing information.
 
-4. **Data Import Page (URL: `https://humanfs.io/{user_name}/admin/import`)**
+4. **Data Import Page (URL: `https://example.com/{user_name}/admin/import`)**
    - **Description:** This section allows users to schedule and manage data imports from Google Drive, OneDrive, Notion, and health apps. Users can set import frequency and select the types of data they wish to sync.
 
 5. **GitHub Repository Synchronization**
    - **Description:** Integrated within the user dashboard, this feature enables synchronization of user data with a GitHub repository. It supports markdown and CSV formats and allows for version control of the digital twin's data.
 
-6. **Chat Interface (URL: `https://humanfs.io/{user_name}`)**
+6. **Chat Interface (URL: `https://example.com/{user_name}`)**
    - **Description:** This page features a chat UI where users can interact with their digital twin. It allows for real-time communication and can be customized in terms of the digital twin's appearance and responses.
 
-7. **API Management (URL: `https://humanfs.io/{user_name}/api`)**
+7. **API Management (URL: `https://example.com/{user_name}/api`)**
    - **Description:** Users can manage their API key here, monitor usage, and access billing information. This page also integrates Stripe for payment processing.
 
-8. **API Documentation (URL: `https://humanfs.io/{user_name}/api/docs`)**
+8. **API Documentation (URL: `https://example.com/{user_name}/api/docs`)**
    - **Description:** Provides comprehensive and interactive OpenAPI documentation. It allows users and external developers to understand how to interact with the API.
 
 9. **SDK Auto-generation**

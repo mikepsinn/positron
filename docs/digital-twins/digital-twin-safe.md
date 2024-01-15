@@ -12,25 +12,25 @@ This outlines the requirements for a tool to allow people to create and manage t
 3. **Authentication and Integration:**
    - Utilize Next.js and NextAuth for the framework and authentication.
    - Support GitHub and Google login options.
-   - URL: https://humanfs.io/{user_name}/
+   - URL: https://example.com/{user_name}/
 
 4. **Data Import Scheduling:**
    - Enable scheduled data imports from Google Drive, OneDrive, Notion, and various health apps and wearables.
-   - URL: https://humanfs.io/{user_name}/admin/import
+   - URL: https://example.com/{user_name}/admin/import
 
 5. **GitHub API Wrapper:** Allow CRUD operations on the repository's contents via a client application.
 
-6. **Chat Interface:** Include a chat UI for users to interact with their digital twin at https://humanfs.io/{user_name}.
+6. **Chat Interface:** Include a chat UI for users to interact with their digital twin at https://example.com/{user_name}.
 
 7. **API Key Management and Billing:**
    - Enable users to sign up for an API key to communicate with their digital twin.
    - Incorporate usage monitoring and Stripe integration for billing.
-   - URL: https://humanfs.io/{user_name}/api
+   - URL: https://example.com/{user_name}/api
 
 8. **API Documentation:**
    - Provide interactive OpenAPI documentation.
    - Allow external users to sign up and interact with the API.
-   - URL: https://humanfs.io/{user_name}/api/docs
+   - URL: https://example.com/{user_name}/api/docs
 
 9. **SDK Auto-generation:** Implement GitHub actions to automatically generate and publish SDKs from the OpenAPI specification upon changes.
 
