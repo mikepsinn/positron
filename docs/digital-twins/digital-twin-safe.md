@@ -1,5 +1,7 @@
 # Digital Twin Safe Product Requirements
 
+![digital-twin-safe-no-text.png](../../images/digital-twin-safe-no-text.png)
+
 This outlines the requirements for a tool to allow people to create and manage their digital twin. The platform will leverage automation, API integration, and AI to streamline the digital twin creation process.
 
 ### High-Level Requirements
@@ -59,6 +61,10 @@ This outlines the requirements for a tool to allow people to create and manage t
 
 10. **Community Features:** Create a community forum or space where users can share experiences, tips, and best practices related to their digital twins.
 
-## Data Sources
-
-See [Data Sources](digital-twin-data-sources.md) for a list of data sources that can be used to create a digital twin.
+## Learn More
+- [Why Digital Twins?](why-digital-twins.md) - Why we need digital twins to create a better world.
+- [How to Create a Digital Twin](how-to-build-a-digital-twin.md) - How to create a digital twin.
+- [Digital Twin Safe](digital-twin-safe.md)
+  - [Site Map](dts-site-map.md)
+- [Data Sources](digital-twin-data-sources.md)
+- [Data Model](digital-twin-data-model.md)
