@@ -22,25 +22,25 @@ Authentication and Integration:
 
 Utilize Next.js and NextAuth for the framework and authentication.
 Support GitHub and Google login options.
-URL: https://example.com/{user_name}/
+URL: https://{user_name}.wishonia.ai/
 Data Import Scheduling:
 
 Enable scheduled data imports from Google Drive, OneDrive, Notion, and various health apps and wearables.
-URL: https://example.com/{user_name}/admin/import
+URL: https://{user_name}.wishonia.ai/admin/import
 GitHub API Wrapper: Allow CRUD operations on the repository's contents via a client application.
 
-Chat Interface: Include a chat UI for users to interact with their digital twin at https://example.com/{user_name}.
+Chat Interface: Include a chat UI for users to interact with their digital twin at https://{user_name}.wishonia.ai.
 
 API Key Management and Billing:
 
 Enable users to sign up for an API key to communicate with their digital twin.
 Incorporate usage monitoring and Stripe integration for billing.
-URL: https://example.com/{user_name}/api
+URL: https://{user_name}.wishonia.ai/api
 API Documentation:
 
 Provide interactive OpenAPI documentation.
 Allow external users to sign up and interact with the API.
-URL: https://example.com/{user_name}/api/docs
+URL: https://{user_name}.wishonia.ai/api/docs
 SDK Auto-generation: Implement GitHub actions to automatically generate and publish SDKs from the OpenAPI specification upon changes.
 
 OAuth2 Server Integration: Allow users to grant third-party applications access to their Digital Twin data.

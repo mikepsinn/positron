@@ -5,40 +5,90 @@
 This outlines the requirements for a tool to allow people to create and manage their digital twin. The platform will leverage automation, API integration, and AI to streamline the digital twin creation process.
 
 ### High-Level Requirements
-1. **Automated Digital Twin Creation:** Users should be able to automatically generate a digital twin by importing data via APIs or through web research AI agents.
+1. **Automated Digital Twin Creation:** 
+   - Anyone should be able to automatically generate a digital twin by:
+      - importing data via APIs or 
+      - through web research AI agents
+      - uploading data through a web interface
+      - editing files using tools like [Obsidian](https://obsidian.md/)
 
-2. **GitHub Repository Synchronization:** The platform will sync user data to a GitHub repository in markdown and CSV formats.
+2. **Git Repository Synchronization:** 
+   - Your safe will sync user data to their Digital Twin GitHub repository in markdown and CSV formats.  
+   - The benefits of storing data in a GitHub repository are:
+      - Version control
+        - Users can easily revert to previous versions of their data if necessary.
+      - Collaboration
+        - For Digital Twins of organizations, teams can contribute to a shared data repository with fine-grained access controls.
+      - Openness
+      - Portability
+        - By being able to easily clone the repository anywhere, it can be easily used in other systems without having to deal with API integrations.
+      - Security
+        - GitHub has heavy built-in security features and fine-grained access controls
+      - Automation
+        - Automatically update vector database embeddings when data is added or changed using a GitHub action
+      - **URL:** https://{username}.wishonia.ai/admin/git-sync
 
-3. **Authentication and Integration:**
+3. **Data Import:**
+   - Scheduled data imports from Google Drive, OneDrive, Notion, and various health apps and wearables.
    - Utilize Next.js and NextAuth for the framework and authentication.
+   - NextAuth has built-in support for authentication and importing data from:
+     - Google Drive
+     - Gmail
+     - Google Calendar
+     - Google Contacts
+     - Google Sheets
+     - Google Tasks
+     - OneDrive
+     - Notion
+     - Slack
+     - Twitter
+     - Spotify
+     - Strava
+     - Fitbit
+     - GitHub
+     - GitLab
+     - Facebook
+     - Apple
+     - Twitch
+     - Discord
+     - Instagram
+     - LinkedIn
+     - Reddit
+     - Dropbox
+     - Salesforce
+     - Trello
+     - WordPress
    - Support GitHub and Google login options.
-   - URL: https://example.com/{user_name}/
+   - URLs: 
+     - Overview: https://{username}.wishonia.ai/admin/add-connector
+     - Google Drive: https://{username}.wishonia.ai/admin/admin/connectors/{connector_name}
 
-4. **Data Import Scheduling:**
-   - Enable scheduled data imports from Google Drive, OneDrive, Notion, and various health apps and wearables.
-   - URL: https://example.com/{user_name}/admin/import
+4. **Chat Interface to Directly Talk to Your Digital Twin:** 
+   - a chat UI at https://{username}.wishonia.ai/chat to interact with their digital twin
+   - In order to preserve privacy and control costs, the analog twin should be able to configure a paywall for their digital twin.
 
-5. **GitHub API Wrapper:** Allow CRUD operations on the repository's contents via a client application.
-
-6. **Chat Interface:** Include a chat UI for users to interact with their digital twin at https://example.com/{user_name}.
-
-7. **API Key Management and Billing:**
+5. **A Personal API for Your Digital Twin:**
+   - Your Digital Twin's API is an easy way for you to interact with your digital twin.
    - Enable users to sign up for an API key to communicate with their digital twin.
    - Incorporate usage monitoring and Stripe integration for billing.
-   - URL: https://example.com/{user_name}/api
+   - URL: https://{user_name}.wishonia.ai/api
 
-8. **API Documentation:**
+6. **API Documentation:**
    - Provide interactive OpenAPI documentation.
    - Allow external users to sign up and interact with the API.
-   - URL: https://example.com/{user_name}/api/docs
+   - URL: https://{user_name}.wishonia.ai/api/docs
 
-9. **SDK Auto-generation:** Implement GitHub actions to automatically generate and publish SDKs from the OpenAPI specification upon changes.
+7. **SDK Auto-generation:**
+   - Implement GitHub actions to automatically generate and publish SDKs from the OpenAPI specification upon changes.
+   - This allows developers to include Digital Twins in their own applications (or virtual worlds) with minimal effort.
+   - SDKs require API keys to access the Digital Twin API, so this also helps with billing.
 
-10. **OAuth2 Server Integration:** Allow users to grant third-party applications access to their Digital Twin data.
+8. **OAuth2 Server Integration:** 
+   - Allow users to grant third-party applications access to their Digital Twin data.
 
-11. **User-Specific URLs:** Assign individual URLs for each user's digital twin and related functionalities.
+9. **User-Specific URLs:** Assign individual URLs for each user's digital twin and related functionalities.
 
-12. **User Dashboard:** Create a user dashboard for managing the digital twin, settings, billing, etc.
+10. **User Dashboard:** Create a user dashboard for managing the digital twin, settings, billing, etc.
 
 ### Additional Features for Enhanced User Experience
 1. **AI-Driven Insights:** Implement AI to analyze imported data and provide insights or suggestions for the digital twin’s development and optimization.
