@@ -12,23 +12,7 @@ This outlines the requirements for a tool to allow people to create and manage t
       - uploading data through a web interface
       - editing files using tools like [Obsidian](https://obsidian.md/)
 
-2. **Git Repository Synchronization:** 
-   - Your safe will sync user data to their Digital Twin GitHub repository in markdown and CSV formats.  
-   - The benefits of storing data in a GitHub repository are:
-      - Version control
-        - Users can easily revert to previous versions of their data if necessary.
-      - Collaboration
-        - For Digital Twins of organizations, teams can contribute to a shared data repository with fine-grained access controls.
-      - Openness
-      - Portability
-        - By being able to easily clone the repository anywhere, it can be easily used in other systems without having to deal with API integrations.
-      - Security
-        - GitHub has heavy built-in security features and fine-grained access controls
-      - Automation
-        - Automatically update vector database embeddings when data is added or changed using a GitHub action
-      - **URL:** https://{username}.wishonia.ai/admin/git-sync
-
-3. **Data Import:**
+2. **Data Import:**
    - Scheduled data imports from Google Drive, OneDrive, Notion, and various health apps and wearables.
    - Utilize Next.js and NextAuth for the framework and authentication.
    - NextAuth has built-in support for authentication and importing data from:
@@ -48,68 +32,87 @@ This outlines the requirements for a tool to allow people to create and manage t
      - GitHub
      - GitLab
      - Facebook
-     - Apple
-     - Twitch
      - Discord
      - Instagram
      - LinkedIn
      - Reddit
      - Dropbox
-     - Salesforce
-     - Trello
      - WordPress
-   - Support GitHub and Google login options.
+     - Whatever else people use
    - URLs: 
      - Overview: https://{username}.wishonia.ai/admin/add-connector
-     - Google Drive: https://{username}.wishonia.ai/admin/admin/connectors/{connector_name}
+     - Specific Connection Management Page: https://{username}.wishonia.ai/admin/admin/connectors/{connector_name}
 
-4. **Chat Interface to Directly Talk to Your Digital Twin:** 
+3. **Chat Interface to Directly Talk to Your Digital Twin:** 
    - a chat UI at https://{username}.wishonia.ai/chat to interact with their digital twin
    - In order to preserve privacy and control costs, the analog twin should be able to configure a paywall for their digital twin.
 
-5. **A Personal API for Your Digital Twin:**
+4. **A Personal API for Your Digital Twin:**
    - Your Digital Twin's API is an easy way for you to interact with your digital twin.
    - Enable users to sign up for an API key to communicate with their digital twin.
    - Incorporate usage monitoring and Stripe integration for billing.
    - URL: https://{user_name}.wishonia.ai/api
 
-6. **API Documentation:**
+5. **API Documentation:**
    - Provide interactive OpenAPI documentation.
-   - Allow external users to sign up and interact with the API.
    - URL: https://{user_name}.wishonia.ai/api/docs
 
-7. **SDK Auto-generation:**
-   - Implement GitHub actions to automatically generate and publish SDKs from the OpenAPI specification upon changes.
+6. **SDK Auto-generation:**
    - This allows developers to include Digital Twins in their own applications (or virtual worlds) with minimal effort.
-   - SDKs require API keys to access the Digital Twin API, so this also helps with billing.
+   - SDKs require API keys to access the Digital Twin API
 
-8. **OAuth2 Server Integration:** 
+7. **OAuth2 Server Integration:** 
    - Allow users to grant third-party applications access to their Digital Twin data.
 
-9. **User-Specific URLs:** Assign individual URLs for each user's digital twin and related functionalities.
+8. **User-Specific URLs:** Assign individual URLs for each user's digital twin and related functionalities.
 
-10. **User Dashboard:** Create a user dashboard for managing the digital twin, settings, billing, etc.
+9. **User Dashboard:** Create a user dashboard for managing the digital twin, settings, billing, etc.
 
-### Additional Features for Enhanced User Experience
-1. **AI-Driven Insights:** Implement AI to analyze imported data and provide insights or suggestions for the digital twin’s development and optimization.
+10. **Git Repository Synchronization:** 
+    - Your safe will sync user data to their Digital Twin GitHub repository in markdown and CSV formats.  
+    - The benefits of storing data in a GitHub repository are:
+       - Version control
+         - Users can easily revert to previous versions of their data if necessary.
+       - Collaboration
+         - For Digital Twins of organizations, teams can contribute to a shared data repository with fine-grained access controls.
+       - Openness
+       - Portability
+         - By being able to easily clone the repository anywhere, it can be easily used in other systems without having to deal with API integrations.
+       - Security
+         - GitHub has heavy built-in security features and fine-grained access controls
+       - Automation
+         - Automatically update vector database embeddings when data is added or changed using a GitHub action
+       - **URL:** https://{username}.wishonia.ai/admin/git-sync
 
-2. **Customization Options:** Allow users to customize their digital twin's appearance, personality traits, and responses in the chat UI.
+11. **Customization Options:** 
+    - Allow users to customize their digital twin's
+      - personality traits
+      - edit responses to specific questions in the question/answer history
+      - set all the properties listed in the [Digital Twin Data Model](digital-twin-data-model.md)
 
-3. **Privacy Settings:** Provide robust privacy controls for users to manage who can access their digital twin and what data is shared.
+12. **Privacy Settings:**
+    - Provide robust privacy controls for users to manage who can access their digital twin and what data is shared.
+    - Create multiple personas for your digital twin to interact with different groups of people with access to different "collections" of data
 
-4. **Notification System:** Implement notifications for important updates, scheduled data imports, and API usage alerts.
+13. **Notification System:**
+    - Implement notifications for
+      - important updates
+      - scheduled data imports
+      - API usage alerts
+      - billing
+      - import errors
+      - handoffs to the analog twin for specific types of questions or people
 
-5. **User Support and Tutorial:** Include a help section with tutorials on creating and managing digital twins, and a support system for user inquiries.
+14. **User Support and Tutorial:**
+    - Include a help section with tutorials on creating and managing digital twins, and a support system for user inquiries.
 
-6. **Feedback Mechanism:** Implement a feature for users to provide feedback on the platform, contributing to continuous improvement.
+15. **Feedback Mechanism:**
+    - Users speaking to the digital twin in the chat UI should be able to thumbs up or thumbs down responses.  These ratings should be able to be applied to improve future responses using reinforcement learning.
+    - The analog twin should be able to review all previous conversations and provide superior responses which will be incorporated and heavily weighted in training data or vector DB search rankings. 
+    - users to provide feedback on the platform, contributing to continuous improvement.
 
-7. **Multi-Language Support:** Offer the platform in multiple languages to cater to a global user base.
-
-8. **Mobile Responsiveness:** Ensure that the web interface is fully responsive and accessible on various devices, including tablets and smartphones.
-
-9. **Data Visualization Tools:** Provide tools for users to visualize the data collected by their digital twin, enhancing understanding and engagement.
-
-10. **Community Features:** Create a community forum or space where users can share experiences, tips, and best practices related to their digital twins.
+16. **Mobile Responsiveness:** 
+    - Ensure that the web interface is fully responsive and accessible on various devices, including tablets and smartphones.
 
 ## Learn More
 - [Why Digital Twins?](why-digital-twins.md) - Why we need digital twins to create a better world.
