@@ -29,7 +29,7 @@ The Positron network consists of "Positron Nodes" run by non-profit organization
 
 "Positron Nodes" are applications that contain autonomous **Task Agents**. Each **Task Agent** is focused on a very specific task to advance the non-profit's core mission.  The autonomous Task Agents use retrieval augmented generation as long-term memory, context management as short-term memory, large language models for reasoning and decision-making, and tools to take action using external APIs.
 
-The "Autonomous Non-Profit Designer Agent" applies the rules that applies the six primary rules of the most effective non-profit organizations from the book Forces for Good to generate its **Task Agent** definitions.
+The "Autonomous Non-Profit Designer Agent" applies the six primary rules of the most effective non-profit organizations from the book Forces for Good to generate its **Task Agent** definitions.
 
 ## Task Agents
 
