@@ -32,5 +32,5 @@ Relative to the cognitive abilities of future AI agents, humans will basically b
 
 **Optimized Health** - Imagine your digital twin could be trained on all over your health data and the health data of everyone else in the world. It could then tell you what you should eat, how much you should exercise, and what supplements you should take to live as long as possible. It could also tell you what diseases you're likely to get and what you can do to prevent them.
 
-**Optimized Love** - Imagine your digital twin could go on a date with everyone else's digital twin. Instead of people marrying whoever their locker was next to in high school, they could find the best person among 8 billion people. This would lead to more happiness and less divorce.
+**Optimized Relationships** - Imagine your digital twin could go on a date with everyone else's digital twin. Instead of people marrying whoever their locker was next to in high school, they could find the best person among 8 billion people. This would lead to more happiness and less divorce.
 

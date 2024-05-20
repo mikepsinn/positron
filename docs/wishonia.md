@@ -32,7 +32,7 @@ This world leverages the full potential of AI and digital technology to enhance 
    - Imposes financial penalties on digital representations of entities violating human rights, creating a powerful deterrent. 
    - Practical Benefit: Raises awareness and could pressure real-world entities to adhere to international human rights laws.
 
-7. **Wishonian AI Police:**
+7. **Wishonian Police:**
    - Uses advanced techniques like DDoS attacks to neutralize malevolent AI and digital threats, ensuring the safety and integrity of online spaces.
    - Practical Benefit: Serves as a model for effective digital law enforcement, potentially influencing real-world strategies against AI-based threats.
 
