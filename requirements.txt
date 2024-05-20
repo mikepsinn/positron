@@ -1,7 +1,12 @@
-requests
-beautifulsoup4
-langchain
-PyYAML
-python-dotenv
+requests~=2.31.0
+beautifulsoup4~=4.12.2
+langchain~=0.1.1
+PyYAML~=6.0.1
+python-dotenv~=1.0.0
 openai
 autogen
+duckduckgo-search
+langchain-community
+
+crewai~=0.1.32
+yaml~=0.2.5
